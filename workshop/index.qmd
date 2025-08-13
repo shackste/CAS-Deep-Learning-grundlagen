@@ -1,0 +1,10 @@
+---
+title: "Ablauf"
+---
+
+| {{< bi collection >}} Thema | {{< bi clock >}} Dauer |
+|-------|--------|
+| [Auswertung der Umfrage](umfrage/index.qmd) | 10 min |
+| [Input: Wie Chatbots denken](wie-chatbots-denken/index.qmd) | 25 min |
+| [Input: Chatbot Agenten](chatbot-agenten/index.qmd) | 25 min |
+| [Effective Prompting Strategies](prompting/index.qmd) | Zum Selbststudium |

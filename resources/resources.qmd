@@ -1,0 +1,36 @@
+---
+# title: "Virtuelle Akademie"
+# about:
+#   template: solana #trestles
+#   # image: ../assets/robot.png
+#   # image-width: 12em
+#   # image-shape: rounded
+#   links:
+#     - icon: magic
+#       text: Virtuelle Akademie
+#       href: https://virtuelleakademie.ch/
+#     - icon: lightbulb-fill
+#       text: Knowledge Base
+#       href: https://virtuelleakademie.ch/knowledge-base/
+#     - icon: mortarboard-fill
+#       text: Weiterbildungsangebote
+#       href: https://www.bfh.ch/de/ueber-die-bfh/service-beratung/virtuelle-akademie/
+#     - icon: inbox-fill
+#       text: Email
+#       href: mailto:andrew.ellis@bfh.ch
+
+# bibliography: ../bibliography.bib
+---
+
+
+## KI Orientierungshilfe der BFH
+
+<!-- - [KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus](https://bernerfachhochschule.sharepoint.com/sites/mybfh-BFH-News-de/SitePages/Nachrichten-K%C3%BCnstliche-Intelligenz-(KI)-in-der-Lehre.aspx) -->
+
+- [KI-basierte Schreibtools in der Lehre – Knowledge Base](https://virtuelleakademie.ch/knowledge-base/ki-basierte-schreibtools-in-der-lehre-chatgpt-im-fokus/)
+
+<br>
+
+```{=html}
+<iframe src="https://virtuelleakademie.ch/knowledge-base/ki-basierte-schreibtools-in-der-lehre-chatgpt-im-fokus/" width="800" height="800"></iframe>
+```

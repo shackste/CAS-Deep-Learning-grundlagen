@@ -1,0 +1,27 @@
+# date: 5 December, 2024
+# date-format: "DD MMM, YYYY"
+# author: 
+#   - name: Andrew Ellis
+#     url: https://github.com/awellis
+#     affiliation: Virtual Academy, Bern University of Applied Sciences
+#     affiliation-url: https://virtuelleakademie.ch
+#     orcid: 0000-0002-2788-936X
+license: CC BY
+# citation: true
+bibliography: ../bibliography.bib
+format:
+    html:
+        toc: true
+        code-fold: false
+        code-link: true
+        callout-appearance: minimal
+        callout-icon: true
+# editor:
+#   markdown:
+#     wrap: 72
+# code:
+#   tidy: true
+#   tidy_opts:
+#     width.cutoff: 80
+# filters:
+#   - pyodide

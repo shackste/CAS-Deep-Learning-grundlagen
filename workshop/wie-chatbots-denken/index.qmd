@@ -1,0 +1,16 @@
+---
+title: "Wie Chatbots denken"
+---
+
+
+Diese Präsentation untersucht die Funktionsweise von Large Language Models (LLMs), ihre Unterschiede zu Chatbots, Assistenten und Agenten sowie deren Fähigkeit, kohärente, aber nicht immer genaue Antworten zu generieren. 
+
+## {{< bi file-slides >}} Präsentation
+
+{{< html file="https://slides.com/stefanhackstein/chatbots-denken/embed" height="500px" class="ratio ratio-16x9" >}}
+
+
+<!-- ## {{< bi book >}} Zusammenfassung -->
+
+<!-- ::: {.callout-note collapse="true"}
+::: -->

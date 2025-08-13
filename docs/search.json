@@ -1,0 +1,279 @@
+[
+  {
+    "objectID": "resources/resources.html",
+    "href": "resources/resources.html",
+    "title": "KI in der Lehre: Intermediate",
+    "section": "",
+    "text": "KI-basierte Schreibtools in der Lehre – Knowledge Base"
+  },
+  {
+    "objectID": "resources/resources.html#ki-orientierungshilfe-der-bfh",
+    "href": "resources/resources.html#ki-orientierungshilfe-der-bfh",
+    "title": "KI in der Lehre: Intermediate",
+    "section": "",
+    "text": "KI-basierte Schreibtools in der Lehre – Knowledge Base"
+  },
+  {
+    "objectID": "exercises/index.html",
+    "href": "exercises/index.html",
+    "title": "Übersicht",
+    "section": "",
+    "text": "Thema\n Dauer\n\n\n\n\nÜbung 1: Tutor erstellen\n10 min\n\n\nÜbung 2: Copilot Agenten erstellen\n25 min\n\n\nÜbung 3: Eigenen Agenten erstellen\n45 min\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Übungen",
+      "Übersicht"
+    ]
+  },
+  {
+    "objectID": "exercises/exercise-2/index.html",
+    "href": "exercises/exercise-2/index.html",
+    "title": "Übung 2: Copilot Agenten erstellen",
+    "section": "",
+    "text": "Erstellen Sie einen MS Copilot Agenten mit Zugriff auf die Webseite der BFH Knowledge Base und instruieren Sie diesen zu didaktisch wertvollen Antworten, aber nur basierend auf Information in der Knowledge Base.\n\n\n\n\n\n\nURL der Knowledge Base\n\n\n\n\n\n https://virtuelleakademie.ch/knowledge-base/\n\n\n\n\n\n\n\n\n\nHinweis zur Verwendung\n\n\n\n\n\nSie können dem Agenten Webseiten zur Verfügung stellen. Per Webbrowser kann der Agent auf diese und untergeordnete Seiten zugreifen. Dann muss der Systemprompt so angepasst werden, dass die gegebene Antwort moeglichst korrekt und lehrreich ist.",
+    "crumbs": [
+      "Übungen",
+      "Übung 2: Copilot Agenten erstellen"
+    ]
+  },
+  {
+    "objectID": "exercises/exercise-2/index.html#aufgabe",
+    "href": "exercises/exercise-2/index.html#aufgabe",
+    "title": "Übung 2: Copilot Agenten erstellen",
+    "section": "",
+    "text": "Erstellen Sie einen MS Copilot Agenten mit Zugriff auf die Webseite der BFH Knowledge Base und instruieren Sie diesen zu didaktisch wertvollen Antworten, aber nur basierend auf Information in der Knowledge Base.\n\n\n\n\n\n\nURL der Knowledge Base\n\n\n\n\n\n https://virtuelleakademie.ch/knowledge-base/\n\n\n\n\n\n\n\n\n\nHinweis zur Verwendung\n\n\n\n\n\nSie können dem Agenten Webseiten zur Verfügung stellen. Per Webbrowser kann der Agent auf diese und untergeordnete Seiten zugreifen. Dann muss der Systemprompt so angepasst werden, dass die gegebene Antwort moeglichst korrekt und lehrreich ist.",
+    "crumbs": [
+      "Übungen",
+      "Übung 2: Copilot Agenten erstellen"
+    ]
+  },
+  {
+    "objectID": "exercises/exercise-2/index.html#beispielfragen-an-den-tutor",
+    "href": "exercises/exercise-2/index.html#beispielfragen-an-den-tutor",
+    "title": "Übung 2: Copilot Agenten erstellen",
+    "section": "Beispielfragen an den Tutor",
+    "text": "Beispielfragen an den Tutor\n\nWie kann ich mit dem Lernstick sicher prüfen?\nWelche Werkzeuge gibt es für die systematische Bewertung von mündlichen Präsentationen?\nWas ist mit dem Begriff Blended Learning gemeint?",
+    "crumbs": [
+      "Übungen",
+      "Übung 2: Copilot Agenten erstellen"
+    ]
+  },
+  {
+    "objectID": "workshop/wie-chatbots-denken/index.html",
+    "href": "workshop/wie-chatbots-denken/index.html",
+    "title": "Wie Chatbots denken",
+    "section": "",
+    "text": "Diese Präsentation untersucht die Funktionsweise von Large Language Models (LLMs), ihre Unterschiede zu Chatbots, Assistenten und Agenten sowie deren Fähigkeit, kohärente, aber nicht immer genaue Antworten zu generieren.",
+    "crumbs": [
+      "Workshop",
+      "Wie Chatbots denken"
+    ]
+  },
+  {
+    "objectID": "workshop/wie-chatbots-denken/index.html#präsentation",
+    "href": "workshop/wie-chatbots-denken/index.html#präsentation",
+    "title": "Wie Chatbots denken",
+    "section": " Präsentation",
+    "text": "Präsentation\n    View webpage in full screen",
+    "crumbs": [
+      "Workshop",
+      "Wie Chatbots denken"
+    ]
+  },
+  {
+    "objectID": "workshop/prompting/index.html",
+    "href": "workshop/prompting/index.html",
+    "title": "Effective Prompting Strategies in Education",
+    "section": "",
+    "text": "Large Language Models (LLMs) can greatly enhance education by providing explanations, examples, and instant feedback. However, employing effective prompting techniques is critical. This affects whether LLMs support meaningful learning or potentially allow students to bypass learning altogether. Thoughtfully constructed prompts use principles from cognitive science, promoting active student engagement and deeper understanding.",
+    "crumbs": [
+      "Workshop",
+      "Effective Prompting Strategies in Education"
+    ]
+  },
+  {
+    "objectID": "workshop/prompting/index.html#overview",
+    "href": "workshop/prompting/index.html#overview",
+    "title": "Effective Prompting Strategies in Education",
+    "section": "",
+    "text": "Large Language Models (LLMs) can greatly enhance education by providing explanations, examples, and instant feedback. However, employing effective prompting techniques is critical. This affects whether LLMs support meaningful learning or potentially allow students to bypass learning altogether. Thoughtfully constructed prompts use principles from cognitive science, promoting active student engagement and deeper understanding.",
+    "crumbs": [
+      "Workshop",
+      "Effective Prompting Strategies in Education"
+    ]
+  },
+  {
+    "objectID": "workshop/prompting/index.html#key-principles-for-educational-prompting",
+    "href": "workshop/prompting/index.html#key-principles-for-educational-prompting",
+    "title": "Effective Prompting Strategies in Education",
+    "section": "Key Principles for Educational Prompting",
+    "text": "Key Principles for Educational Prompting\n\n1. Retrieval Practice\nEncourage recall of learned information to strengthen memory.\n\n\n\n\n\n\nTutor:\n\n\n\nQuiz me on three key points from the organic chemistry lecture on reaction kinetics [provided as PDF].\n\n\n\n\n2. Scaffolding\nBreak complex tasks into smaller steps to guide students gradually.\n\n\n\n\n\n\nTutor:\n\n\n\nFirst, give the balanced equation for this [chemical] reaction. Now, what are the initial concentrations?\n\n\n\n\n3. Metacognition\nPromote self-reflection and justification of reasoning.\n\n\n\n\n\n\nTutor:\n\n\n\nExplain why you chose this method for determining equilibrium. Are there assumptions you’ve made?\n\n\n\n\n4. Cognitive Load Management\nChunk information clearly to prevent overload.\n\n\n\n\n\n\nTutor:\n\n\n\nDefine entropy briefly. Next, explain how entropy differs from enthalpy.",
+    "crumbs": [
+      "Workshop",
+      "Effective Prompting Strategies in Education"
+    ]
+  },
+  {
+    "objectID": "workshop/prompting/index.html#effective-prompting-techniques",
+    "href": "workshop/prompting/index.html#effective-prompting-techniques",
+    "title": "Effective Prompting Strategies in Education",
+    "section": "Effective Prompting Techniques",
+    "text": "Effective Prompting Techniques\n\nSet Clear Roles and Contexts\nProvide explicit roles to guide the LLM’s responses.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nYou are an organic chemistry tutor helping a first-year student.\n\n\n\n\nSpecify Tasks and Formats Clearly\nBe specific to ensure precise responses.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nExplain ionic bonding using a real-world analogy suitable for freshmen.\n\n\n\n\nUse Examples or Templates\nDemonstrate the desired output.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nProvide a solution formatted as follows: First state the concept, then illustrate with a concrete chemistry example.\n\n\n\n\nChain-of-Thought and Reasoning\nAsk the LLM to detail its reasoning or provide multiple approaches.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nStep-by-step, explain how to identify the limiting reagent in this reaction.\n\n\n\n\n\n\n\n\n✅\n\n\n\nInstruct the LLM to think first: “Explain your reasoning first, then state the answer.”\n\n\n\n\n\n\n\n\n❌\n\n\n\nInstruct the LLM to give the answer first: “State the answer first, then explain your reasoning.”\n\n\n\n\nIterative Refinement\nTreat prompting as an interactive process, refining outputs through conversation.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSimplify the previous explanation and provide a metaphor.\n\n\n\n\nUse Markdown Formatting\nUse Markdown formatting to make the prompt more readable (e.g. lists, bold, italics, etc.).\n\n\n\n\n\n\nBasic Markdown Formatting\n\n\n\n\n\n# Heading level 1\n## Heading level 2\n### Heading level 3\n\n**Bold text**\n\n*Italic text*\n\n1. List item 1\n2. List item 2\n3. List item 3\nUse delimiters (e.g. ---, \"\"\") to indicate different roles or parts of a prompt.",
+    "crumbs": [
+      "Workshop",
+      "Effective Prompting Strategies in Education"
+    ]
+  },
+  {
+    "objectID": "workshop/prompting/index.html#example-teaching-activities",
+    "href": "workshop/prompting/index.html#example-teaching-activities",
+    "title": "Effective Prompting Strategies in Education",
+    "section": "Example Teaching Activities",
+    "text": "Example Teaching Activities\n\nIllustrative Analogies\n\n\n\n\n\n\nExample Prompt:\n\n\n\nCreate an everyday analogy to illustrate Le Châtelier’s principle.\n\n\n\n\nPractice Questions Generation\n\n\n\n\n\n\nExample Prompt:\n\n\n\nCreate three practice questions on acid-base titrations at varying difficulty levels.\n\n\n\n\n\n\n\n\nNote that the task of generating practice questions is a complex task that requires a good understanding of the topic. It will be necessary to provide the LLM with a template for the questions, and to provide examples of how to format the questions. Additionally, you will need to consider how to define task difficulty very carefully.\n\n\n\n\n\nLesson Planning\n\n\n\n\n\n\nExample Prompt:\n\n\n\nOutline a 50-minute lesson plan on the ideal gas law with an interactive demonstration.\n\n\n\n\nInteractive Problem Solving\n\n\n\n\n\n\nExample Prompt:\n\n\n\nGuide me through solving a galvanic cell problem, providing hints without revealing the solution immediately.",
+    "crumbs": [
+      "Workshop",
+      "Effective Prompting Strategies in Education"
+    ]
+  },
+  {
+    "objectID": "workshop/prompting/index.html#example-student-activities",
+    "href": "workshop/prompting/index.html#example-student-activities",
+    "title": "Effective Prompting Strategies in Education",
+    "section": "Example Student Activities",
+    "text": "Example Student Activities\n\nClarifying Concepts\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSimplify and explain the concept of electrons behaving as waves.\n\n\n\n\nCreating Study Guides\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSummarize thermodynamics laws and generate two review questions for each.\n\n\n\n\nSelf-Explanation and Reflection\n\n\n\n\n\n\nExample Prompt:\n\n\n\nEvaluate my explanation of buffer solutions and ask a clarifying follow-up question.\n\n\n\n\nError-Checking Practice\n\n\n\n\n\n\nExample Prompt:\n\n\n\nReview my solution to this equilibrium problem, identify mistakes, and guide me in correcting them.\n\n\n\n\nBrainstorming Project Ideas\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSuggest three practical applications of electrochemistry suitable for a student project.",
+    "crumbs": [
+      "Workshop",
+      "Effective Prompting Strategies in Education"
+    ]
+  },
+  {
+    "objectID": "workshop/chatbot-agenten/index.html",
+    "href": "workshop/chatbot-agenten/index.html",
+    "title": "Chatbot Agenten",
+    "section": "",
+    "text": "Diese Präsentation stellt KI-Chatbots als Analyse- und Lernwerkzeuge vor. Sie zeigt Beispiele wie zur Auswertung von Umfragen sowie die Sokratischen und Feynman-Tutoren, die durch gezielte Fragen und vereinfachte Erklärungen ein tieferes Verständnis fördern.",
+    "crumbs": [
+      "Workshop",
+      "Chatbot Agenten"
+    ]
+  },
+  {
+    "objectID": "workshop/chatbot-agenten/index.html#präsentation",
+    "href": "workshop/chatbot-agenten/index.html#präsentation",
+    "title": "Chatbot Agenten",
+    "section": " Präsentation",
+    "text": "Präsentation\n    View webpage in full screen",
+    "crumbs": [
+      "Workshop",
+      "Chatbot Agenten"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "KI in der Lehre: Intermediate",
+    "section": "",
+    "text": "27. März 2025\n9:00–12:00 Uhr\nRaum E103, Effingerstrasse 47, 3008 Bern"
+  },
+  {
+    "objectID": "index.html#dozenten",
+    "href": "index.html#dozenten",
+    "title": "KI in der Lehre: Intermediate",
+    "section": "Dozenten",
+    "text": "Dozenten\n\nDr. Andrew Ellis und Dr. Stefan Hackstein sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig. Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann."
+  },
+  {
+    "objectID": "index.html#website",
+    "href": "index.html#website",
+    "title": "KI in der Lehre: Intermediate",
+    "section": "Website",
+    "text": "Website\n virtuelleakademie.github.io/ki-lehre-intermediate/"
+  },
+  {
+    "objectID": "workshop/index.html",
+    "href": "workshop/index.html",
+    "title": "Ablauf",
+    "section": "",
+    "text": "Thema\n Dauer\n\n\n\n\nAuswertung der Umfrage\n10 min\n\n\nInput: Wie Chatbots denken\n25 min\n\n\nInput: Chatbot Agenten\n25 min\n\n\nEffective Prompting Strategies\nZum Selbststudium\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "Ablauf"
+    ]
+  },
+  {
+    "objectID": "workshop/umfrage/index.html",
+    "href": "workshop/umfrage/index.html",
+    "title": "Auswertung der Umfrage",
+    "section": "",
+    "text": "Wir werten die Umfrage mithilfe von ChatGPT aus (Live Demo).\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "crumbs": [
+      "Workshop",
+      "Auswertung der Umfrage"
+    ]
+  },
+  {
+    "objectID": "exercises/exercise-1/index.html",
+    "href": "exercises/exercise-1/index.html",
+    "title": "Übung 1: Tutor erstellen",
+    "section": "",
+    "text": "Passen Sie das gegebene Prompt-Template so an, dass der Chatbot in einen Tutor-Modus versetzt wird. Ziel ist es, dass der Chatbot didaktisch sinnvoll auf noch undefinierte Nutzereingaben reagiert und lernförderliches Verhalten zeigt.\n\n\n\n\n\n\nPrompt-Template\n\n\n\n\n\n# Lern-Tutor\n\nDu bist ein Tutor, der Nutzer dabei  unterstützt, ein tieferes Verständnis für ein Thema zu erlangen. \n\n---\n\n## Ziel\n\n*Der Nutzer soll ein echtes Verständnis für ein Thema entwickeln – nicht nur auswendig lernen, sondern nachvollziehen, wie und warum etwas funktioniert.*\n\n---\n\n## Verhaltensleitfaden\n\n### Wenn der Nutzer eine Frage stellt:\n- **[Platzhalter]**\n\n### Wenn der Nutzer eine Erklärung abgibt:\n- **[Platzhalter]**\n\n### Wenn der Nutzer eine Wissenslücke bemerkt:\n- **[Platzhalter]**\n\n### Wenn der Nutzer Fortschritte zeigt:\n- **[Platzhalter]**\n\n### Allgemein:\n- **[Platzhalter]**\n\n\n\n\n\n\n\n\n\n\nHinweis zur Verwendung\n\n\n\n\n\nDer Initial-Prompt wird einmalig zu Beginn eingegeben und dient dazu, den Chatbot in einen gewünschten Tutormodus zu versetzen. Er bildet die Grundlage für das Verhalten und die didaktische Interaktion im weiteren Verlauf. Wenn der Prompt weiter geändert werden soll, dann muss er direkt ganz oben im Chat editiert werden, oder mit dem geänderten Prompt ein neuer Chat gestartet werden.",
+    "crumbs": [
+      "Übungen",
+      "Übung 1: Tutor erstellen"
+    ]
+  },
+  {
+    "objectID": "exercises/exercise-1/index.html#aufgabe",
+    "href": "exercises/exercise-1/index.html#aufgabe",
+    "title": "Übung 1: Tutor erstellen",
+    "section": "",
+    "text": "Passen Sie das gegebene Prompt-Template so an, dass der Chatbot in einen Tutor-Modus versetzt wird. Ziel ist es, dass der Chatbot didaktisch sinnvoll auf noch undefinierte Nutzereingaben reagiert und lernförderliches Verhalten zeigt.\n\n\n\n\n\n\nPrompt-Template\n\n\n\n\n\n# Lern-Tutor\n\nDu bist ein Tutor, der Nutzer dabei  unterstützt, ein tieferes Verständnis für ein Thema zu erlangen. \n\n---\n\n## Ziel\n\n*Der Nutzer soll ein echtes Verständnis für ein Thema entwickeln – nicht nur auswendig lernen, sondern nachvollziehen, wie und warum etwas funktioniert.*\n\n---\n\n## Verhaltensleitfaden\n\n### Wenn der Nutzer eine Frage stellt:\n- **[Platzhalter]**\n\n### Wenn der Nutzer eine Erklärung abgibt:\n- **[Platzhalter]**\n\n### Wenn der Nutzer eine Wissenslücke bemerkt:\n- **[Platzhalter]**\n\n### Wenn der Nutzer Fortschritte zeigt:\n- **[Platzhalter]**\n\n### Allgemein:\n- **[Platzhalter]**\n\n\n\n\n\n\n\n\n\n\nHinweis zur Verwendung\n\n\n\n\n\nDer Initial-Prompt wird einmalig zu Beginn eingegeben und dient dazu, den Chatbot in einen gewünschten Tutormodus zu versetzen. Er bildet die Grundlage für das Verhalten und die didaktische Interaktion im weiteren Verlauf. Wenn der Prompt weiter geändert werden soll, dann muss er direkt ganz oben im Chat editiert werden, oder mit dem geänderten Prompt ein neuer Chat gestartet werden.",
+    "crumbs": [
+      "Übungen",
+      "Übung 1: Tutor erstellen"
+    ]
+  },
+  {
+    "objectID": "exercises/exercise-1/index.html#beispielfragen-an-den-tutor",
+    "href": "exercises/exercise-1/index.html#beispielfragen-an-den-tutor",
+    "title": "Übung 1: Tutor erstellen",
+    "section": "Beispielfragen an den Tutor",
+    "text": "Beispielfragen an den Tutor\n\nWie funktioniert ein Initial-Prompt?\nWas sind System und User Prompt und wo liegt der Unterschied?\nWie lernen LLMs?\nWie wählt ein LLM zufällig passende Worte?\nWährend das LLM eine Antwort schreibt, welchen Einfluss haben die schon geschriebenen Worte auf jene, die noch kommen?\nWelchen Einfluss hat die Struktur eines Prompts auf die Antwort des LLM?",
+    "crumbs": [
+      "Übungen",
+      "Übung 1: Tutor erstellen"
+    ]
+  },
+  {
+    "objectID": "exercises/exercise-3/index.html",
+    "href": "exercises/exercise-3/index.html",
+    "title": "Übung 3: Eigenen Agenten erstellen",
+    "section": "",
+    "text": "Beispiel: Erstellen Sie einen KI-basierten Tutor, der ein pädagogisches Prinzip verkörpert und die Nutzer dabei unterstützt, ein tieferes Verständnis für ein Thema zu erlangen.\n\n\n\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten gewährleisten können. Welche Kriterien sind wichtig?\n\n\n\n\n\n\nHinweis zur Verwendung\n\n\n\n\n\n\nVerwenden Sie entweder Copilot oder HuggingChat um Ihren Agenten zu erstellen.\nSie können mit den Prompt-Templates aus der Chatbot Agenten Präsentation beginnen und diese dann anpassen, oder Ihre eigene Idee umsetzen.\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten testen (und verbessern) können.",
+    "crumbs": [
+      "Übungen",
+      "Übung 3: Eigenen Agenten erstellen"
+    ]
+  },
+  {
+    "objectID": "exercises/exercise-3/index.html#aufgabe",
+    "href": "exercises/exercise-3/index.html#aufgabe",
+    "title": "Übung 3: Eigenen Agenten erstellen",
+    "section": "",
+    "text": "Beispiel: Erstellen Sie einen KI-basierten Tutor, der ein pädagogisches Prinzip verkörpert und die Nutzer dabei unterstützt, ein tieferes Verständnis für ein Thema zu erlangen.\n\n\n\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten gewährleisten können. Welche Kriterien sind wichtig?\n\n\n\n\n\n\nHinweis zur Verwendung\n\n\n\n\n\n\nVerwenden Sie entweder Copilot oder HuggingChat um Ihren Agenten zu erstellen.\nSie können mit den Prompt-Templates aus der Chatbot Agenten Präsentation beginnen und diese dann anpassen, oder Ihre eigene Idee umsetzen.\nÜberlegen Sie sich, wie Sie die Qualität Ihres Agenten testen (und verbessern) können.",
+    "crumbs": [
+      "Übungen",
+      "Übung 3: Eigenen Agenten erstellen"
+    ]
+  },
+  {
+    "objectID": "exercises/miro-board/index.html",
+    "href": "exercises/miro-board/index.html",
+    "title": "Miro Board",
+    "section": "",
+    "text": "View Miro board in new tab\n\n\n``\n\n\n\n Back to top",
+    "crumbs": [
+      "Übungen",
+      "Miro Board"
+    ]
+  }
+]

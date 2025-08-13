@@ -1,0 +1,47 @@
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+.jupyter_cache
+# pyenv
+
+# R specific
+.Rproj.user
+*.Rproj
+
+# MacOS specific
+.DS_Store
+/env/
+*.code-workspace
+data/*
+notes/*
+
+# Quarto
+/.quarto/
+pages/*_cache/
+pages/*_files/
+/notes/
+/_do-not-build/**
+
+# venv
+.venv/
+
+# Spelling
+/.cspell/
+slides/empty.qmd
+docs/slides/empty.html
+
+.vscode/
+config.yaml
+pages/config.yaml
+
+# assets
+/assets/ppt/~*
+
+/.luarc.json
+
+
