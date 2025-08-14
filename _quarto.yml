@@ -11,14 +11,13 @@ project:
   render:
     - index.qmd
     - workshop/**/*.qmd
+    - slides/**/*.qmd
     - exercises/**/*.qmd
     - resources/**/*.qmd
 
 website:
-  title: "KI in der Lehre: Intermediate"
-  site-url: https://virtuelleakademie.github.io/ki-lehre-intermediate/
-  # repo-url: https://github.com/virtuelleakademie/cas-hochschuldidaktik/
-  # repo-actions: [edit, issue]
+  title: "CAS Deep Learning - Grundlagen"
+#  site-url: https://virtuelleakademie.github.io/ki-lehre-intermediate/
   favicon: /assets/robot.png
   open-graph: true
   search:
@@ -36,32 +35,20 @@ website:
         href: workshop/index.qmd
         text: Workshop
 
+      - icon: file-slides
+        href: slides/index.qmd
+        text: Slides
+
       - icon: pencil
         href: exercises/index.qmd
         text: Übungen
 
-    right:
-      - icon: file-slides
-        text: "Dokumente" # {{< fa person-chalkboard >}}
-        menu:
-          - text: "Begleitdokument: KI Weiterbildung"
-            file: assets/pdfs/Begleitdokument.pdf
-          - text: "Begleitdokument: Orientierungshilfe"
-            file: resources/resources.qmd
-          - text: "Begleitdokument: Orientierungshilfe (PDF)"
-            file: assets/pdfs/Orientierungshilfe.pdf
-
-    tools:
-      - icon: lightbulb-fill
-        text: Knowledge Base
-        href: https://virtuelleakademie.ch/knowledge-base/
-
-      # - icon: github
-      #   menu:
-      #     - text: Source code
-      #       url:  https://github.com/virtuelleakademie/cas-hochschuldidaktik/
-      #     - text: Report an issue
-      #       url:  https://github.com/virtuelleakademie/cas-hochschuldidaktik/issues
+#    right:
+#      - icon: briefcase
+#        text: "Dokumente" # {{< fa person-chalkboard >}}
+#        menu:
+#          - text: "Begleitdokument: "
+#            file: assets/pdfs/Begleitdokument.pdf
 
   sidebar:
     - title: "Workshop"
@@ -70,26 +57,23 @@ website:
       background: light
       contents:
         - workshop/index.qmd
-        - workshop/umfrage/index.qmd
-        - workshop/wie-chatbots-denken/index.qmd
-        - workshop/chatbot-agenten/index.qmd
-        - workshop/prompting/index.qmd
+#        - workshop/umfrage/index.qmd
+#        - workshop/wie-chatbots-denken/index.qmd
+#        - workshop/chatbot-agenten/index.qmd
+#        - workshop/prompting/index.qmd
 
-    - title: "Übungen"
+    - title: "Exercises"
       style: "docked"
       search: true
       background: light
       contents:
         - exercises/index.qmd
-        - exercises/exercise-1/index.qmd
-        - exercises/exercise-2/index.qmd
-        - exercises/exercise-3/index.qmd
-        - exercises/miro-board/index.qmd
+#        - exercises/exercise-1/index.qmd
 
 page-footer:
   right:
     - icon: github
-      href: https://github.com/virtuelleakademie/ki-lehre-intermediate/
+      href: https://github.com/shackste/CAS-Deep-Learning-grundlagen.git
 
 format:
   html:
@@ -106,7 +90,7 @@ comments:
   hypothesis:
     theme: clean
   # utterances:
-  # repo: virtuelleakademie/promptly-literate
+  # repo: shackste/CAS-Deep-Learning-grundlagen
 
 execute:
   cache: true

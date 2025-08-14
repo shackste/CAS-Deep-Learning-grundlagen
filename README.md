@@ -1,3 +1,3 @@
-# KI in der Lehre: Intermediate
+# CAS Deep Learning - Grundlagen
 
 

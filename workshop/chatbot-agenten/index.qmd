@@ -1,9 +1,0 @@
----
-title: "Chatbot Agenten"
----
-
-Diese Präsentation stellt KI-Chatbots als Analyse- und Lernwerkzeuge vor. Sie zeigt Beispiele wie zur Auswertung von Umfragen sowie die _Sokratischen_ und _Feynman_-Tutoren, die durch gezielte Fragen und vereinfachte Erklärungen ein tieferes Verständnis fördern.
-
-## {{< bi file-slides >}} Präsentation
-
-{{< html file="https://slides.com/stefanhackstein/chatbot-agenten/embed" height="500px" class="ratio ratio-16x9" >}}

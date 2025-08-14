@@ -1,14 +1,13 @@
-# date: 5 December, 2024
+# date: 14 August, 2025
 # date-format: "DD MMM, YYYY"
 # author: 
-#   - name: Andrew Ellis
-#     url: https://github.com/awellis
-#     affiliation: Virtual Academy, Bern University of Applied Sciences
-#     affiliation-url: https://virtuelleakademie.ch
-#     orcid: 0000-0002-2788-936X
+#   - name: Stefan Hackstein
+#     url: https://github.com/shackste
+#     affiliation: Institut für Data Science, University of Applied Sciences and Arts Northwestern Switzerland FHNW
+#     affiliation-url: https://www.fhnw.ch/
 license: CC BY
 # citation: true
-bibliography: ../bibliography.bib
+#bibliography: ../bibliography.bib
 format:
     html:
         toc: true

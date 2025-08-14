@@ -6,8 +6,8 @@ color:
   foreground: dark-grey
   primary: black
 
-# logo: 
-#   large: assets/bfh-logo.png
+logo: 
+   small: assets/logo-fhnw.png
 
 typography:
   fonts:

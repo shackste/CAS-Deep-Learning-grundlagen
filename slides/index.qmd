@@ -1,0 +1,9 @@
+---
+title: "Übersicht"
+---
+
+| {{< bi collection >}} Thema | {{< bi clock >}} Dauer |
+|-------|--------|
+| [Übung 1: Tutor erstellen](exercise-1/index.qmd) | 10 min |
+| [Übung 2: Copilot Agenten erstellen](exercise-2/index.qmd) | 25 min |
+| [Übung 3: Eigenen Agenten erstellen](exercise-3/index.qmd) | 45 min |

@@ -1,50 +1,30 @@
 ---
-# title: "KI in der Lehre"
+# title: "CAS Deep Learning - Grundlagen"
 format:
   html:
     toc: false
 about:
   template: marquee #trestles
-#   image: "assets/logo.png"
+#  image: "assets/fhnw-logo.png"
   links:
     - icon: inbox-fill
       text: Email
-      href: mailto:virtuelle.akademie@bfh.ch
-    - icon: magic
-      text: Virtuelle Akademie
-      href: https://virtuelleakademie.ch/
-    - icon: lightbulb-fill
-      text: Knowledge Base
-      href: https://virtuelleakademie.ch/knowledge-base/
-    - icon: mortarboard-fill
-      text: Weiterbildungsangebote
-      href: https://www.bfh.ch/de/ueber-die-bfh/service-beratung/virtuelle-akademie/
+      href: mailto:stefan.hackstein@fhnw.ch
 ---
 
 
-{{< bi calendar-event >}} 27. März 2025
+{{< bi calendar-event >}} 3 Tage
 
-{{< bi clock >}} 9:00–12:00 Uhr
-
-{{< bi map >}} Raum E103, Effingerstrasse 47, 3008 Bern
+{{< bi clock >}} 8:45–16:30 Uhr
 
 <br>
 
-## Dozenten
+## Dozent
 
-<!-- [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. 
 
-[Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch), Physiker und Datenwissenschaftler, ist Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. -->
-[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) und [Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch) sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig.
-Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
+[Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch), Physiker, Datenwissenschaftler und Forscher zu Thema "KI in der Lehre"
 
-## Website
 
-{{< bi link >}} [virtuelleakademie.github.io/ki-lehre-intermediate/](https://virtuelleakademie.github.io/ki-lehre-intermediate/)
-
-<br>
-<!-- ## QR Code -->
-{{< qrcode https://virtuelleakademie.github.io/ki-lehre-intermediate/ width=200 height=200 colorDark='#000000' >}}
 
 
 
