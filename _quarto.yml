@@ -13,11 +13,10 @@ project:
     - workshop/**/*.qmd
     - slides/**/*.qmd
     - exercises/**/*.qmd
-    - resources/**/*.qmd
 
 website:
   title: "CAS Deep Learning - Grundlagen"
-#  site-url: https://virtuelleakademie.github.io/ki-lehre-intermediate/
+#  site-url: https://link-to-your-site.com
   favicon: /assets/robot.png
   open-graph: true
   search:

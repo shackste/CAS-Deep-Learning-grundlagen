@@ -22,7 +22,7 @@ about:
 ## Dozent
 
 
-[Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch), Physiker, Datenwissenschaftler und Forscher zu Thema "KI in der Lehre"
+[Dr. Stefan Hackstein](mailto:stefan.hackstein@fhnw.ch), Physiker, Datenwissenschaftler und Forscher zu Thema "KI in der Lehre"
 
 
 
