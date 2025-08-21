@@ -4,7 +4,7 @@
     "href": "exercises/index.html",
     "title": "Exercises",
     "section": "",
-    "text": "Thema\n\n\n\n\nExercise 1: Daten Erkunden\n\n\nExercise 2: Modell & Training\n\n\nExercise 3: Evaluieren\n\n\nExercise 4: Overfitten\n\n\nExercise 5: Regularisieren\n\n\nExercise 6: Optimieren\n\n\nExercise 7: Anwendung\n\n\nExercise 8: Nächste Schritte\n\n\n\n\n\n\n Back to top",
+    "text": "Thema\n\n\n\n\nExercise 1: Daten Erkunden\n\n\nExercise 2: Modell & Training\n\n\nExercise 3: Evaluieren\n\n\nExercise 4: Overfitten\n\n\nExercise 5: Regularisieren\n\n\nExercise 6: Optimieren\n\n\nExercise 7: Anwendung\n\n\nExercise 8: Nächste Schritte\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to top",
     "crumbs": [
       "Exercises"
     ]
@@ -14,7 +14,7 @@
     "href": "exercises/7-anwendung.html",
     "title": "7 - Anwendung",
     "section": "",
-    "text": "Hands-On: TensorFlow CIFAR-10\nStarten Sie mit diesem Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nKlassifizieren Sie den CIFAR-100\nVergleichen Sie verschiedene Regularisationsmethoden an CNN\nFühren Sie ein Hyperparametertuning durch\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Back to top",
+    "text": "Hands-On: TensorFlow CIFAR-10\nStarten Sie mit diesem Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nKlassifizieren Sie den CIFAR-100\nVergleichen Sie verschiedene Regularisationsmethoden an CNN\nFühren Sie ein Hyperparametertuning durch\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to top",
     "crumbs": [
       "Exercises",
       "7 - Anwendung"
@@ -25,7 +25,7 @@
     "href": "exercises/5-regularisieren.html",
     "title": "5 - Regularisieren",
     "section": "",
-    "text": "Hands-On: MNIST Classifier\nBearbeiten Sie dieses Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nModifizieren Sie den MNIST Classifier mit zwei Regularisierungen: Dropout & L2\nVergleichen Sie die Performance mit und ohne Regularisierung\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Back to top",
+    "text": "Hands-On: MNIST Classifier\nBearbeiten Sie dieses Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nModifizieren Sie den MNIST Classifier mit zwei Regularisierungen: Dropout & L2\nVergleichen Sie die Performance mit und ohne Regularisierung\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to top",
     "crumbs": [
       "Exercises",
       "5 - Regularisieren"
@@ -36,7 +36,7 @@
     "href": "exercises/3-evaluieren.html",
     "title": "3 - Evaluieren",
     "section": "",
-    "text": "Hands-On: MNIST Classifier\nBearbeiten Sie dieses Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nBerechnen Sie die Konfusionsmatrix sowie den F1 Score auf einem beliebigen Datensatz\nBerechnen Sie diese explizit für ein untrainiertes Modell auf dem Testdatensatz\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Back to top",
+    "text": "Hands-On: MNIST Classifier\nBearbeiten Sie dieses Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nBerechnen Sie die Konfusionsmatrix sowie den F1 Score auf einem beliebigen Datensatz\nBerechnen Sie diese explizit für ein untrainiertes Modell auf dem Testdatensatz\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to top",
     "crumbs": [
       "Exercises",
       "3 - Evaluieren"
@@ -47,7 +47,7 @@
     "href": "exercises/1-daten_erkunden.html",
     "title": "1 - Daten Erkunden",
     "section": "",
-    "text": "MNIST Datensatz\nÖffnen sie dieses Notebook und bearbeiten Sie die Aufgaben.\n\n\n\n\n\n\nCaution\n\n\n\nNotebook auf Drive kopieren um Resultate zu speichern\n\n\nBeantworten Sie so folgende Fragen:\n\n\n\n\n\n\nFragen\n\n\n\n\n\n\nWelche Daten enthält der Datensatz?\nWelches Format haben die Daten?\nWelche Klassen gibt es und wie sind diese verteilt?\nWie machen wir die Klassen dem Modell verständlich?\nWelche Skalierung der Daten ist sinnvoll?\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "text": "MNIST Datensatz\nÖffnen sie dieses Notebook und bearbeiten Sie die Aufgaben.\n\n\n\n\n\n\nCaution\n\n\n\nNotebook auf Drive kopieren um Resultate zu speichern\n\n\nBeantworten Sie so folgende Fragen:\n\n\n\n\n\n\nFragen\n\n\n\n\n\n\nWelche Daten enthält der Datensatz?\nWelches Format haben die Daten?\nWelche Klassen gibt es und wie sind diese verteilt?\nWie machen wir die Klassen dem Modell verständlich?\nWelche Skalierung der Daten ist sinnvoll?\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to top",
     "crumbs": [
       "Exercises",
       "1 - Daten Erkunden"
@@ -58,14 +58,14 @@
     "href": "workshop/vorstellung.html",
     "title": "Begrüßungsaufgabe",
     "section": "",
-    "text": "Stellen Sie sich kurz vor:\n\nName\nBranche / Unternehmen / Beruf\nSubjektives Erfahrungslevel mit Deep Learning (Skala von 0-10)\nErwartung vom Kurs\n\n\n\n\n Back to topReuseCC BY 4.0"
+    "text": "Stellen Sie sich kurz vor:\n\nName\nBranche / Unternehmen / Beruf\nSubjektives Erfahrungslevel mit Machine Learning (Skala von 0-10)\nErwartung vom Kurs\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to topReuseCC BY 4.0"
   },
   {
     "objectID": "workshop/tag2.html",
     "href": "workshop/tag2.html",
     "title": "Tag 2",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\nInput 4 - Overfitten\n10 min\n\n\nExercise 4: Overfitten\n40 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 4\n10 min\n\n\nInput 5 - Regularisieren\n10 min\n\n\nExercise 5: Regularisieren\n60 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 5\n10 min\n\n\n\n\n\n\nMittagspause\n100 min\n\n\n\n\n\n\nInput 6 - Optimieren\n15 min\n\n\nExercise 6: Optimieren\n90 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 6\n25 min\n\n\nOpen Q&A\n30 min\n\n\nEnde\n\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "text": "Thema\n Dauer\n\n\n\n\nInput 4 - Overfitten\n10 min\n\n\nExercise 4: Overfitten\n40 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 4\n10 min\n\n\nInput 5 - Regularisieren\n10 min\n\n\nExercise 5: Regularisieren\n60 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 5\n10 min\n\n\n\n\n\n\nMittagspause\n100 min\n\n\n\n\n\n\nInput 6 - Optimieren\n15 min\n\n\nExercise 6: Optimieren\n90 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 6\n25 min\n\n\nOpen Q&A\n30 min\n\n\nEnde\n\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to topReuseCC BY 4.0",
     "crumbs": [
       "Workshop",
       "Tag 2"
@@ -76,7 +76,7 @@
     "href": "workshop/kursvorbereitung.html",
     "title": "Kursvorbereitung",
     "section": "",
-    "text": "Option 1: Sofort fertig mit Google Colab\nGoogle Colab\nOption 2: Virtual Environment mit Jupyter Notebooks aufsetzen\n- Virtual Environment & Jupyter Notebooks\n- PyTorch / TensorFlow mit CUDA installieren:\n- PyTorch (Linux): Anleitung\n- PyTorch (Windows): Anleitung\n- TensorFlow: Anleitung\n\n\n\n\nOption 1: PyTorch Fundamentals\nOption 2: TensorFlow Basics\n\n\n\n\nWas ist ein Neuronales Netzwerk?\nVideo ansehen",
+    "text": "Option 1: Sofort fertig mit Google Colab\nGoogle Colab\nOption 2: Virtual Environment mit Jupyter Notebooks aufsetzen\n- Virtual Environment & Jupyter Notebooks\n- PyTorch / TensorFlow mit CUDA installieren:\n- PyTorch (Linux): Anleitung\n- PyTorch (Windows): Anleitung\n- TensorFlow: Anleitung\n\n\n\n\nOption 1: PyTorch Fundamentals\nOption 2: TensorFlow Basics\n\n\n\n\nWas ist ein Neuronales Netzwerk?\nVideo ansehen\nContent licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/”",
     "crumbs": [
       "Workshop",
       "Kursvorbereitung"
@@ -131,7 +131,7 @@
     "href": "index.html",
     "title": "CAS Deep Learning - Grundlagen",
     "section": "",
-    "text": "3 Tage\n8:45–16:30 Uhr"
+    "text": "3 Tage\n8:45–16:30 Uhr\nContent licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/”"
   },
   {
     "objectID": "index.html#dozent",
@@ -145,7 +145,7 @@
     "href": "workshop/index.html",
     "title": "Ablauf",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\n\n\n\n\nKursvorbereitung\n\n\n\n\n\n\n\nTag 1\n\n\n\n\n\n\n\nEinstieg\n15 min\n\n\nInput 0 - Was ist KI?\n15 min\n\n\nInput 0a - Übersicht\n15 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nInput 1 - Daten Erkunden\n15 min\n\n\nExercise 1: Daten Erkunden\n35 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 1\n10 min\n\n\nInput 2 - Modell & Training\n30 min\n\n\n\n\n\n\nMittagspause\n105 min\n\n\n\n\n\n\nFortsetzung Input 2\n20 min\n\n\nExercise 2: Modell & Training\n30 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 2\n10 min\n\n\nInput 3 - Evaluieren\n10 min\n\n\nExercise 3: Evaluieren\n30 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 3\n10 min\n\n\nOpen Q&A\n30 min\n\n\nEnde\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTag 2\n\n\n\nInput 4 - Overfitten\n10 min\n\n\nExercise 4: Overfitten\n40 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 4\n10 min\n\n\nInput 5 - Regularisieren\n10 min\n\n\nExercise 5: Regularisieren\n60 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 5\n10 min\n\n\n\n\n\n\nMittagspause\n100 min\n\n\n\n\n\n\nInput 6 - Optimieren\n15 min\n\n\nExercise 6: Optimieren\n90 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 6\n25 min\n\n\nOpen Q&A\n30 min\n\n\nEnde\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTag 3\n\n\n\nInput 6a - Möglichkeiten & Grenzen\n45 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nInput 7 - Anwendungen\n20 min\n\n\nExercise 7: Anwendung\n90 min\n\n\n\n\n\n\nMittagspause\n105 min\n\n\n\n\n\n\nBesprechung Exercise 7\n10 min\n\n\nInput 8 - Geschichte des DL\n30 min\n\n\nExercise 8: Nächste Schritte\n90 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 8\n10 min\n\n\nInput 9 - Zusammenfassung\n5 min\n\n\nOpen Q&A\n15 min\n\n\nEnde\n\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "text": "Thema\n Dauer\n\n\n\n\n\n\n\n\nKursvorbereitung\n\n\n\n\n\n\n\nTag 1\n\n\n\n\n\n\n\nEinstieg\n15 min\n\n\nInput 0 - Was ist KI?\n15 min\n\n\nInput 0a - Übersicht\n15 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nInput 1 - Daten Erkunden\n15 min\n\n\nExercise 1: Daten Erkunden\n35 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 1\n10 min\n\n\nInput 2 - Modell & Training\n30 min\n\n\n\n\n\n\nMittagspause\n105 min\n\n\n\n\n\n\nFortsetzung Input 2\n20 min\n\n\nExercise 2: Modell & Training\n30 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 2\n10 min\n\n\nInput 3 - Evaluieren\n10 min\n\n\nExercise 3: Evaluieren\n30 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 3\n10 min\n\n\nOpen Q&A\n30 min\n\n\nEnde\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTag 2\n\n\n\nInput 4 - Overfitten\n10 min\n\n\nExercise 4: Overfitten\n40 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 4\n10 min\n\n\nInput 5 - Regularisieren\n10 min\n\n\nExercise 5: Regularisieren\n60 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 5\n10 min\n\n\n\n\n\n\nMittagspause\n100 min\n\n\n\n\n\n\nInput 6 - Optimieren\n15 min\n\n\nExercise 6: Optimieren\n90 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 6\n25 min\n\n\nOpen Q&A\n30 min\n\n\nEnde\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTag 3\n\n\n\nInput 6a - Möglichkeiten & Grenzen\n45 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nInput 7 - Anwendungen\n20 min\n\n\nExercise 7: Anwendung\n90 min\n\n\n\n\n\n\nMittagspause\n105 min\n\n\n\n\n\n\nBesprechung Exercise 7\n10 min\n\n\nInput 8 - Geschichte des DL\n30 min\n\n\nExercise 8: Nächste Schritte\n90 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 8\n10 min\n\n\nInput 9 - Zusammenfassung\n5 min\n\n\nOpen Q&A\n15 min\n\n\nEnde\n\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to topReuseCC BY 4.0",
     "crumbs": [
       "Workshop",
       "Ablauf"
@@ -156,7 +156,7 @@
     "href": "workshop/tag1.html",
     "title": "Tag 1",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\nEinstieg\n15 min\n\n\nInput 0 - Was ist KI?\n15 min\n\n\nInput 0a - Übersicht\n15 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nInput 1 - Daten Erkunden\n15 min\n\n\nExercise 1: Daten Erkunden\n35 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 1\n10 min\n\n\nInput 2 - Modell & Training\n30 min\n\n\n\n\n\n\nMittagspause\n105 min\n\n\n\n\n\n\nFortsetzung Input 2\n20 min\n\n\nExercise 2: Modell & Training\n30 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 2\n10 min\n\n\nInput 3 - Evaluieren\n10 min\n\n\nExercise 3: Evaluieren\n30 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 3\n10 min\n\n\nOpen Q&A\n30 min\n\n\nEnde\n\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "text": "Thema\n Dauer\n\n\n\n\nEinstieg\n15 min\n\n\nInput 0 - Was ist KI?\n15 min\n\n\nInput 0a - Übersicht\n15 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nInput 1 - Daten Erkunden\n15 min\n\n\nExercise 1: Daten Erkunden\n35 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 1\n10 min\n\n\nInput 2 - Modell & Training\n30 min\n\n\n\n\n\n\nMittagspause\n105 min\n\n\n\n\n\n\nFortsetzung Input 2\n20 min\n\n\nExercise 2: Modell & Training\n30 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 2\n10 min\n\n\nInput 3 - Evaluieren\n10 min\n\n\nExercise 3: Evaluieren\n30 min\n\n\n\n\n\n\nPause\n20 min\n\n\n\n\n\n\nBesprechung Exercise 3\n10 min\n\n\nOpen Q&A\n30 min\n\n\nEnde\n\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to topReuseCC BY 4.0",
     "crumbs": [
       "Workshop",
       "Tag 1"
@@ -167,7 +167,7 @@
     "href": "workshop/tag3.html",
     "title": "Tag 3",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\n\nInput 6a - Möglichkeiten & Grenzen | 45 min | 8:50 |\n\nPause | 20 min | 9:35 |\n\nInput 7 - Anwendungen | 20 min |\nExercise 7: Anwendung | 90 min |\n\nMittagspause | 105 min | 11:45 |\n\nBesprechung Exercise 7 | 10 min | 13:30 |\nInput 8 - Geschichte des DL | 30 min | 13:40 |\nExercise 8: Nächste Schritte | 90 min | 14:10 |\n\nPause | 20 min | 15:40 |\n\nBesprechung Exercise 8 | 10 min | 16:00 |\nInput 9 - Zusammenfassung | 5 min | 16:10 |\nOpen Q&A | 15 min | 16:15 |\nEnde | | 16:30 |\n\n\n\n Back to topReuseCC BY 4.0",
+    "text": "Thema\n Dauer\n\n\n\n\n\nInput 6a - Möglichkeiten & Grenzen | 45 min | 8:50 |\n\nPause | 20 min | 9:35 |\n\nInput 7 - Anwendungen | 20 min |\nExercise 7: Anwendung | 90 min |\n\nMittagspause | 105 min | 11:45 |\n\nBesprechung Exercise 7 | 10 min | 13:30 |\nInput 8 - Geschichte des DL | 30 min | 13:40 |\nExercise 8: Nächste Schritte | 90 min | 14:10 |\n\nPause | 20 min | 15:40 |\n\nBesprechung Exercise 8 | 10 min | 16:00 |\nInput 9 - Zusammenfassung | 5 min | 16:10 |\nOpen Q&A | 15 min | 16:15 |\nEnde | | 16:30 |\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to topReuseCC BY 4.0",
     "crumbs": [
       "Workshop",
       "Tag 3"
@@ -178,7 +178,7 @@
     "href": "slides/index.html",
     "title": "Slides",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\nInput 0 - Was ist KI?\n15 min\n\n\nInput 0a - Übersicht\n15 min\n\n\nInput 1 - Daten Erkunden\n15 min\n\n\nInput 2 - Modell & Training\n50 min\n\n\nInput 3 - Evaluieren\n10 min\n\n\nInput 4 - Overfitten\n10 min\n\n\nInput 5 - Regularisieren\n10 min\n\n\nInput 6 - Optimieren\n15 min\n\n\nInput 6a - Möglichkeiten & Grenzen\n45 min\n\n\nInput 7 - Anwendungen\n20 min\n\n\nInput 8 - Geschichte des DL\n30 min\n\n\nInput 9 - Zusammenfassung\n5 min\n\n\n\n\n\n\n Back to top",
+    "text": "Thema\n Dauer\n\n\n\n\nInput 0 - Was ist KI?\n15 min\n\n\nInput 0a - Übersicht\n15 min\n\n\nInput 1 - Daten Erkunden\n15 min\n\n\nInput 2 - Modell & Training\n50 min\n\n\nInput 3 - Evaluieren\n10 min\n\n\nInput 4 - Overfitten\n10 min\n\n\nInput 5 - Regularisieren\n10 min\n\n\nInput 6 - Optimieren\n15 min\n\n\nInput 6a - Möglichkeiten & Grenzen\n45 min\n\n\nInput 7 - Anwendungen\n20 min\n\n\nInput 8 - Geschichte des DL\n30 min\n\n\nInput 9 - Zusammenfassung\n5 min\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to top",
     "crumbs": [
       "Slides"
     ]
@@ -188,7 +188,7 @@
     "href": "exercises/2-training.html",
     "title": "2 - Model & Trainingsloop",
     "section": "",
-    "text": "Hands-On: MNIST Classifier\nBearbeiten Sie dieses Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nErstellen Sie einen MNIST Classifier\nDefinieren Sie die Trainingsloop\nTesten Sie die Trainingsloop über zwei Epochen\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Back to top",
+    "text": "Hands-On: MNIST Classifier\nBearbeiten Sie dieses Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nErstellen Sie einen MNIST Classifier\nDefinieren Sie die Trainingsloop\nTesten Sie die Trainingsloop über zwei Epochen\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to top",
     "crumbs": [
       "Exercises",
       "2 - Model & Trainingsloop"
@@ -199,7 +199,7 @@
     "href": "exercises/4-overfitting.html",
     "title": "4 - Overfitten",
     "section": "",
-    "text": "Hands-On: MNIST Classifier\nBearbeiten Sie dieses Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nWählen Sie eine zufällige Batch zum Overfitten\nTrainieren Sie auf dieser Batch für 100 Epochen\nEvaluieren Sie das Modell an dieser Batch und den Testdaten\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Back to top",
+    "text": "Hands-On: MNIST Classifier\nBearbeiten Sie dieses Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nWählen Sie eine zufällige Batch zum Overfitten\nTrainieren Sie auf dieser Batch für 100 Epochen\nEvaluieren Sie das Modell an dieser Batch und den Testdaten\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to top",
     "crumbs": [
       "Exercises",
       "4 - Overfitten"
@@ -210,7 +210,7 @@
     "href": "exercises/6-optimieren.html",
     "title": "6 - Optimieren",
     "section": "",
-    "text": "Hands-On: MNIST Classifier\nBearbeiten Sie dieses Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nErstellen Sie einen MNIST Classifier mit variabler Anzahl an Hidden Layern\nErstellen Sie einen Validationsdatensatz\nFühren Sie ein Hyperparametertuning durch\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Back to top",
+    "text": "Hands-On: MNIST Classifier\nBearbeiten Sie dieses Notebook.\nBearbeiten Sie folgende Aufgaben:\n\n\n\n\n\n\nAufgaben\n\n\n\n\n\n\nErstellen Sie einen MNIST Classifier mit variabler Anzahl an Hidden Layern\nErstellen Sie einen Validationsdatensatz\nFühren Sie ein Hyperparametertuning durch\n\n\n\n\n\n\n\n\n\n\nLösung\n\n\n\n\n\nDie Lösung finden Sie in diesem Notebook\n\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to top",
     "crumbs": [
       "Exercises",
       "6 - Optimieren"
@@ -221,7 +221,7 @@
     "href": "exercises/8-schritte.html",
     "title": "8 - Nächste Schritte",
     "section": "",
-    "text": "Aufgabenübersicht\nIm folgenden stehen Ihnen 3 Aufgaben mit verschiedenem Kontext und Fokus zur Verfügung. Mit diesen können Sie nun das erworbene Wissen umsetzen und direkte Erfahrung in realistischen Deep Learning Aufgaben sammeln. Beginnen Sie mit der Aufgabe Ihrer Wahl.\n\n\n\n\n\n\nAufgabe 1: Nochmal von Vorne… (Immage Classification, Trainieren)\n\n\n\n\n\nHands-On: Cifar-100 Classification\nStarten Sie mit diesem Notebook.\n\nErstellen, trainieren und evaluieren Sie einen Classifier für den Cifar-100 Datensatz.\n\n\n\n\n\n\n\n\n\n\nAufgabe 2: Aufs Wichtige beschränken (Rauschreduktion, Optimieren)\n\n\n\n\n\nHands-On: Audio Noise Reduction\nStarten Sie mit diesem Notebook.\n\nOptimieren Sie die Audio-Entrauschung so, dass der Output weniger Rauschen zeigt als der Input, die Sprache aber trotzdem verständlich bleibt.\n\n\n\n\n\n\n\n\n\n\nAufgabe 3: Squeeze the Juice … (Anomaly Detection, Evaluieren)\n\n\n\n\n\nHands-On: Pytorch MNIST Anomaly Detection\nBetrachten Sie dieses Notebook.\n\nVersuchen Sie, die Performance eines der folgenden Outputs zu verbessern:\n\nClassifier\n\nGenerator (Variational Autoencoder)\n\nAnomaly Detection\n\nVergleichen Sie die Ergebnisse der verschiedenen Anomaly-Detection-Methoden:\n\nIsolation Forest\n\nMahalanobis-Distanz\n\nVAE-Reconstruction Error\n\n\n\n\n\n\n\n\n\n Back to top",
+    "text": "Aufgabenübersicht\nIm folgenden stehen Ihnen 3 Aufgaben mit verschiedenem Kontext und Fokus zur Verfügung. Mit diesen können Sie nun das erworbene Wissen umsetzen und direkte Erfahrung in realistischen Deep Learning Aufgaben sammeln. Beginnen Sie mit der Aufgabe Ihrer Wahl.\n\n\n\n\n\n\nAufgabe 1: Nochmal von Vorne… (Immage Classification, Trainieren)\n\n\n\n\n\nHands-On: Cifar-100 Classification\nStarten Sie mit diesem Notebook.\n\nErstellen, trainieren und evaluieren Sie einen Classifier für den Cifar-100 Datensatz.\n\n\n\n\n\n\n\n\n\n\nAufgabe 2: Aufs Wichtige beschränken (Rauschreduktion, Optimieren)\n\n\n\n\n\nHands-On: Audio Noise Reduction\nStarten Sie mit diesem Notebook.\n\nOptimieren Sie die Audio-Entrauschung so, dass der Output weniger Rauschen zeigt als der Input, die Sprache aber trotzdem verständlich bleibt.\n\n\n\n\n\n\n\n\n\n\nAufgabe 3: Squeeze the Juice … (Anomaly Detection, Evaluieren)\n\n\n\n\n\nHands-On: Pytorch MNIST Anomaly Detection\nBetrachten Sie dieses Notebook.\n\nVersuchen Sie, die Performance eines der folgenden Outputs zu verbessern:\n\nClassifier\n\nGenerator (Variational Autoencoder)\n\nAnomaly Detection\n\nVergleichen Sie die Ergebnisse der verschiedenen Anomaly-Detection-Methoden:\n\nIsolation Forest\n\nMahalanobis-Distanz\n\nVAE-Reconstruction Error\n\n\n\n\n\n\n\n\n\n Content licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/” Back to top",
     "crumbs": [
       "Exercises",
       "8 - Nächste Schritte"
