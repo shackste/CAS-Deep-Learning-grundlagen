@@ -5,6 +5,6 @@ title:  Begrüßungsaufgabe
 Stellen Sie sich kurz vor:
 
 1. **Name**
-2. **Branche / Unternehmen / Beruf**
+2. **Branche / Unternehmen / Arbeitsfeld**
 3. **Subjektives Erfahrungslevel mit Machine Learning (Skala von 0-10)**
 4. **Erwartung vom Kurs**
