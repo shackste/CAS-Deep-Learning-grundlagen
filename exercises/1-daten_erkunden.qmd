@@ -1,0 +1,34 @@
+---
+title: "1 - Daten Erkunden"
+---
+
+# MNIST Datensatz
+
+ 
+Öffnen sie [dieses Notebook](https://colab.research.google.com/drive/1WZkmGmj99lv_Cd0gWNhhMh4TbTG6dZoJ?usp=sharing) und bearbeiten Sie die Aufgaben. 
+
+
+::: {.callout-caution}
+Notebook auf Drive kopieren um Resultate zu speichern
+:::
+
+
+Beantworten Sie so folgende Fragen:
+
+::: {.pro-tip collapse="false"}
+## Fragen
+
+- Welche Daten enthält der Datensatz?
+- Welches Format haben die Daten?
+- Welche Klassen gibt es und wie sind diese verteilt?
+- Wie machen wir die Klassen dem Modell verständlich?
+- Welche Skalierung der Daten ist sinnvoll?
+ 
+
+
+
+::: {.callout-note collapse="true"}
+## Lösung
+
+Die Lösung finden Sie in [diesem Notebook](https://colab.research.google.com/drive/1Cvtpf5XNIKo_q3OBPQ1n38hZgNxu6VUE?usp=sharing)
+:::

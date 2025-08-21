@@ -1,0 +1,44 @@
+---
+title: "Kursvorbereitung"
+---
+
+# Pflicht
+
+## 1. Programmierumgebung aufsetzen
+
+**Option 1:** Sofort fertig mit Google Colab  
+[Google Colab](https://colab.research.google.com/)
+
+**Option 2:** Virtual Environment mit Jupyter Notebooks aufsetzen  
+- [Virtual Environment & Jupyter Notebooks](https://docs.support.arc.umich.edu/python/jupyter_virtualenv/)  
+- PyTorch / TensorFlow mit CUDA installieren:  
+  - **PyTorch (Linux):** [Anleitung](https://hostkey.com/documentation/technical/gpu/pytorch/)  
+  - **PyTorch (Windows):** [Anleitung](https://learn.microsoft.com/de-de/windows/ai/windows-ml/tutorials/pytorch-installation)  
+  - **TensorFlow:** [Anleitung](https://www.udacity.com/blog/2025/02/how-to-install-tensorflow-a-beginners-step-by-step-guide.html)
+
+---
+
+## 2. Beginner Tutorial durchgehen
+
+**Option 1:** [PyTorch Fundamentals](https://www.learnpytorch.io/00_pytorch_fundamentals/)  
+**Option 2:** [TensorFlow Basics](https://www.tensorflow.org/guide/basics)
+
+---
+
+## 3. Grundlagenvideo anschauen
+
+**Was ist ein Neuronales Netzwerk?**  
+[Video ansehen](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1&pp=iAQB)
+
+---
+
+# Optional
+
+## Weitere Grundlagenvideos der Playlist (Kapitel 2–4)
+
+- **Gradientenverfahren – wie neuronale Netze lernen**  
+  [Video ansehen](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=2&pp=iAQB)
+- **Backpropagation – intuitiv**  
+  [Video ansehen](https://www.youtube.com/watch?v=Ilg3gGewQ5U&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=3&pp=iAQB0gcJCa0JAYcqIYzv)
+- **Backpropagation – mathematisch**  
+  [Video ansehen](https://www.youtube.com/watch?v=tIeHLnjs5U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4&pp=iAQB)

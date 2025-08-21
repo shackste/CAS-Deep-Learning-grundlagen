@@ -2,33 +2,92 @@
 title: "Ablauf"
 ---
 
-| {{< bi collection >}} Thema | {{< bi clock >}} Dauer | 
+
+| {{< bi collection >}} Thema | {{< bi clock >}} Dauer | Start | 
 |-------|--------|
-| [Einstieg](einstieg/index.qmd) | 10 min |
-| [Input: Was ist KI](/slides/was-ist-ki/index.qmd) | 10 min |
-| [Input: Überblick](/slides/overview/index.qmd) | 5 min |
 |
-| Pause | 15 min |
+|[Kursvorbereitung](kursvorbereitung.qmd)
 |
-| [Input: Daten Erkunden](/slides/daten_erkunden/index.qmd) | 5 min |
-| [Exercise: Daten Erkunden](/exercises/daten_erkunden/index.qmd) | 40 min |
-| [Input: Modell & Training](/slides/training/index.qmd) | 5 min |
-| [Exercise: Modell Trainieren](/exercises/training/index.qmd) | 40 min |
-| [Input: Evaluieren](/slides/evaluieren/index.qmd) | 5 min |
-| [Exercise: Evaluieren](/exercises/evaluieren/index.qmd) | 40 min |
-| [Input: Overfitting](/slides/overfitting/index.qmd) | 5 min |
-| [Exercise: Overfitting](/exercises/overfitting/index.qmd) | 40 min |
-| [Input: Regularisieren](/slides/regularisieren/index.qmd) | 5 min |
-| [Exercise: Regularisieren](/exercises/regularisieren/index.qmd) | 40 min |
-| [Input: Möglichkeiten & Grenzen](/slides/grenzen/index.qmd) | 5 min |
-| [Input: Optimieren](/slides/optimieren/index.qmd) | 5 min |
-| [Exercise: Optimieren](/exercises/optimieren/index.qmd) | 40 min |
-| [Input: Anwendungen](/slides/anwendungen/index.qmd) | 5 min |
-| [Exercise: Anwendung](/exercises/anwendung/index.qmd) | 40 min |
-| [Input: Geschichte des DL](/slides/geschichte/index.qmd) | 5 min |
-| [Exercise: Nächste Schritte](/exercises/schritte/index.qmd) | 40 min |
-| [Input: Zusammenfassung](/slides/zusammenfassung/index.qmd) | 5 min |
+| **Tag 1** 
 |
-| Pause | 15 min |
+| [Einstieg](vorstellung.qmd) | 15 min | 8:50 | 
+| [Input 0 - Was ist KI?](/slides/0a-was-ist-ki/index.html) | 15 min | 9:05 |
+| [Input 0a - Übersicht](/slides/0-overview/index.html) | 15 min | 9:20 |
 |
+| **Pause** | 20 min | 9:35 |
+|
+| [Input 1 - Daten Erkunden](/slides/1-daten-erkunden/index.html) | 15 min | 9:55 |
+| [Exercise 1: Daten Erkunden](/exercises/1-daten_erkunden.qmd) | 35 min | 10:10 |
+|
+| **Pause** | 20 min | 10:45 |
+|
+| Besprechung Exercise 1 | 10 min | 11:05 |
+| [Input 2 - Modell & Training](/slides/2-training/index.html) | 30 min | 11:15 |
+|
+| **Mittagspause** | 105 min | 11:45 |
+|
+| Fortsetzung Input 2 | 20 min | 13:30 |
+| [Exercise 2: Modell & Training](/exercises/2-training.qmd) | 30 min | 13:50 |
+|
+| **Pause** | 20 min | 14:20 |
+|
+| Besprechung Exercise 2 | 10 min | 14:40 |
+| [Input 3 - Evaluieren](/slides/3-evaluieren/index.html) | 10 min | 14:50 |
+| [Exercise 3: Evaluieren](/exercises/3-evaluieren.qmd) | 30 min | 15:00 |
+|
+| **Pause** | 20 min | 15:30 |
+|
+| Besprechung Exercise 3 | 10 min | 15:50 |
+| Open Q&A | 30 min | 16:00 |
+| Ende | | 16:30 |
+|
+|
+|
+| **Tag 2** |
+| [Input 4 - Overfitten](/slides/4-overfitting/index.html) | 10 min | 8:50 |
+| [Exercise 4: Overfitten](/exercises/4-overfitting.qmd) | 40 min | 9:00 |
+|
+| **Pause** | 20 min | 9:40 |
+|
+| Besprechung Exercise 4 | 10 min | 10:00 |
+| [Input 5 - Regularisieren](/slides/5-regularisieren/index.html) | 10 min | 10:10 |
+| [Exercise 5: Regularisieren](/exercises/5-regularisieren.qmd) | 60 min | 10:20 |
+|
+| **Pause** | 20 min | 11:20 |
+|
+| Besprechung Exercise 5 | 10 min | 11:40 |
+|
+| **Mittagspause** | 100 min | 11:50 |
+|
+| [Input 6 - Optimieren](/slides/6-optimieren/index.html) | 15 min | 13:30 |
+| [Exercise 6: Optimieren](/exercises/6-optimieren.qmd) | 90 min | 13:45 |
+|
+| **Pause** | 20 min | 15:15 |
+|
+| Besprechung Exercise 6 | 25 min | 15:35 |
+| Open Q&A | 30 min | 16:00 |
+| Ende | | 16:30 |
+|
+|
+|
+| **Tag 3** | 
+| [Input 6a - Möglichkeiten & Grenzen](/slides/6a-grenzen/index.html) | 45 min | 8:50 |
+|
+| **Pause** | 20 min | 9:35 |
+|
+| [Input 7 - Anwendungen](/slides/7-anwendungen/index.html) | 20 min |
+| [Exercise 7: Anwendung](/exercises/7-anwendung.qmd) | 90 min |
+|
+| **Mittagspause** | 105 min | 11:45 |
+|
+| Besprechung Exercise 7 | 10 min | 13:30 |
+| [Input 8 - Geschichte des DL](/slides/8-historie//index.html) | 30 min | 13:40 |
+| [Exercise 8: Nächste Schritte](/exercises/8-schritte.qmd) | 90 min | 14:10 |
+|
+| **Pause** | 20 min | 15:40 |
+|
+| Besprechung Exercise 8  | 10 min | 16:00 |
+| [Input 9 - Zusammenfassung](/slides/9-zusammenfassung/index.html) | 5 min | 16:10 |
+| Open Q&A | 15 min | 16:15 |
+| Ende | | 16:30 |
 

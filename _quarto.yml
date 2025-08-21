@@ -4,6 +4,7 @@ project:
     - assets/*
     - assets/images/*
     - assets/pdfs/*
+    - slides/**
   preview:
     port: 8800
     browser: false
@@ -33,14 +34,80 @@ website:
       - icon: card-list
         href: workshop/index.qmd
         text: Workshop
+        menu:
+          - icon: calendar
+            href: workshop/tag1.qmd
+            text: Tag 1
+          - icon: calendar
+            href: workshop/tag2.qmd
+            text: Tag 2
+          - icon: calendar
+            href: workshop/tag3.qmd
+            text: Tag 3
 
       - icon: file-slides
         href: slides/index.qmd
         text: Slides
+        menu:
+          - icon: file
+            href: slides/0a-was-ist-ki/index.html
+            text: Was ist KI?
+          - icon: file
+            href: slides/0-overview/index.html
+            text: Übersicht
+          - icon: file
+            href: slides/1-daten-erkunden/index.html
+            text: Daten erkunden
+          - icon: file
+            href: slides/2-training/index.html
+            text: Training
+          - icon: file
+            href: slides/3-evaluieren/index.html
+            text: Evaluieren
+          - icon: file
+            href: slides/4-overfitting/index.html
+            text: Overfitting
+          - icon: file
+            href: slides/5-regularisieren/index.html
+            text: Regularisieren
+          - icon: file
+            href: slides/6-optimieren/index.html
+            text: Optimieren
+          - icon: file
+            href: slides/7-anwendungen/index.html
+            text: Anwendungen
+          - icon: file
+            href: slides/8-historie/index.html
+            text: Geschichte des DL
 
       - icon: pencil
         href: exercises/index.qmd
-        text: Übungen
+        text: Exercises
+        menu:
+          - icon: file
+            href: exercises/1-daten_erkunden.qmd
+            text: Daten erkunden
+          - icon: file
+            href: exercises/2-training.qmd
+            text: Training
+          - icon: file
+            href: exercises/3-evaluieren.qmd
+            text: Evaluieren
+          - icon: file
+            href: exercises/4-overfitting.qmd
+            text: Overfitting
+          - icon: file
+            href: exercises/5-regularisieren.qmd
+            text: Regularisieren
+          - icon: file
+            href: exercises/6-optimieren.qmd
+            text: Optimieren
+          - icon: file
+            href: exercises/7-anwendung.qmd
+            text: Anwendung
+          - icon: file
+            href: exercises/8-schritte.qmd
+            text: Schritte
 
 #    right:
 #      - icon: briefcase
@@ -51,23 +118,63 @@ website:
 
   sidebar:
     - title: "Workshop"
+      logo: 1x1.png
       style: "docked"
       search: true
       background: light
       contents:
         - workshop/index.qmd
-#        - workshop/umfrage/index.qmd
-#        - workshop/wie-chatbots-denken/index.qmd
-#        - workshop/chatbot-agenten/index.qmd
-#        - workshop/prompting/index.qmd
+        - workshop/kursvorbereitung.qmd
+        - workshop/tag1.qmd
+        - workshop/tag2.qmd
+        - workshop/tag3.qmd
 
     - title: "Exercises"
+      logo: 1x1.png
       style: "docked"
       search: true
       background: light
       contents:
         - exercises/index.qmd
-#        - exercises/exercise-1/index.qmd
+        - exercises/1-daten_erkunden.qmd
+        - exercises/2-training.qmd
+        - exercises/3-evaluieren.qmd
+        - exercises/4-overfitting.qmd
+        - exercises/5-regularisieren.qmd
+        - exercises/6-optimieren.qmd
+        - exercises/7-anwendung.qmd
+        - exercises/8-schritte.qmd
+
+    - title: "Slides"
+      logo: 1x1.png
+      style: "docked"
+      search: true
+      background: light
+      contents:
+        - slides/index.qmd 
+        - href: slides/0a-was-ist-ki/index.html
+          text: Input 0a - Was ist KI?
+        - href: slides/0-overview/index.html
+          text: Input 0 - Übersicht
+        - href: slides/1-daten-erkunden/index.html
+          text: Input 1 - Daten erkunden
+        - href: slides/2-training/index.html
+          text: Input 2 - Model & Training
+        - href: slides/3-evaluieren/index.html
+          text: Input 3 - Evaluieren
+        - href: slides/4-overfitting/index.html
+          text: Input 4 - Overfitting
+        - href: slides/5-regularisieren/index.html
+          text: Input 5 - Regularisieren
+        - href: slides/6-optimieren/index.html
+          text: Input 6 - Optimieren
+        - href: slides/7-anwendungen/index.html
+          text: Input 7 - Anwendungen
+        - href: slides/8-historie/index.html
+          text: Input 8 - Geschichte des Deep Learning
+        - href: slides/9-zusammenfassung/index.html
+          text: Input 9 - Zusammenfassung
+
 
 page-footer:
   right:

@@ -1,0 +1,27 @@
+---
+title: "Tag 3"
+---
+
+| {{< bi collection >}} Thema | {{< bi clock >}} Dauer | Start | 
+|-------|--------|
+
+| [Input 6a - Möglichkeiten & Grenzen](/slides/6a-grenzen/index.html) | 45 min | 8:50 |
+|
+| **Pause** | 20 min | 9:35 |
+|
+| [Input 7 - Anwendungen](/slides/7-anwendungen/index.html) | 20 min |
+| [Exercise 7: Anwendung](/exercises/7-anwendung.qmd) | 90 min |
+|
+| **Mittagspause** | 105 min | 11:45 |
+|
+| Besprechung Exercise 7 | 10 min | 13:30 |
+| [Input 8 - Geschichte des DL](/slides/8-historie//index.html) | 30 min | 13:40 |
+| [Exercise 8: Nächste Schritte](/exercises/8-schritte.qmd) | 90 min | 14:10 |
+|
+| **Pause** | 20 min | 15:40 |
+|
+| Besprechung Exercise 8  | 10 min | 16:00 |
+| [Input 9 - Zusammenfassung](/slides/9-zusammenfassung/index.html) | 5 min | 16:10 |
+| Open Q&A | 15 min | 16:15 |
+| Ende | | 16:30 |
+

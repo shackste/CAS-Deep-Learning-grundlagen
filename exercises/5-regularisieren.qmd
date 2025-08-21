@@ -1,0 +1,22 @@
+---
+title: "5 - Regularisieren"
+---
+
+# Hands-On: MNIST Classifier
+
+Bearbeiten Sie [dieses Notebook](https://colab.research.google.com/drive/1-0L_0c7GrMJbZ_roCRh-2XTMR37tQ_GF?usp=sharing).
+
+Bearbeiten Sie folgende Aufgaben:
+
+::: {.pro-tip collapse="false"}
+## Aufgaben
+
+- Modifizieren Sie den MNIST Classifier mit zwei Regularisierungen: **Dropout** & **L2**
+- Vergleichen Sie die Performance mit und ohne Regularisierung
+:::
+
+::: {.callout-note collapse="true"}
+## Lösung
+
+Die Lösung finden Sie in [diesem Notebook](https://colab.research.google.com/drive/1diZVBQBAlVllkhouprD7L7rkIp9Yd10I?usp=sharing)
+:::

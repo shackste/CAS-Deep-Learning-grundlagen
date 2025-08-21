@@ -9,7 +9,10 @@ about:
   links:
     - icon: inbox-fill
       text: Email
-      href: mailto:stefan.hackstein@fhnw.ch
+      href: mailto:stefan.hackstein@fhnw.ch    
+    - icon: assets/linkedin.png
+      text: LinkedIn
+      href: https://www.linkedin.com/in/stefan-hackstein-a914b81a5/
 ---
 
 
@@ -22,7 +25,7 @@ about:
 ## Dozent
 
 
-[Dr. Stefan Hackstein](mailto:stefan.hackstein@fhnw.ch), Physiker, Datenwissenschaftler und Forscher zu Thema "KI in der Lehre"
+[Dr. Stefan Hackstein](mailto:stefan.hackstein@fhnw.ch), Physiker, Datenwissenschaftler und Forscher zum Thema "KI in der Lehre"
 
 
 

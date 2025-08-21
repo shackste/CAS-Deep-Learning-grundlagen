@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="manifest" href='data:application/manifest+json,{"display": "standalone", "name": "Deep Learning Grundlagen - Daten Erkunden"}' />
+		<title>Deep Learning Grundlagen - Daten Erkunden</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-black-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-auto-animate-easing="linear" data-background-image="deep-learning-daten-erkunden/4ea859934a9f996b4fcabd9935a75330.png" data-background-size="contain" data-auto-animate="" data-id="43baeeed169881223926cca3a2ea79a1"><div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="de2104ff3aa44ea5b86f5002cbc77624"><div class="sl-block-content" style="z-index: 10;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/KrW3vneNe2U?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="ef68b5c0aba928176b4bf6ae48730202">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 21px;" data-name="text-fb64a9" data-block-id="fec1630a087b24d3faf2b7fec1b4c506"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Deep Learning</h2></div></div>
+<div class="sl-block" data-block-type="image" style="width: 959.289px; height: 539.6px; left: 160px; top: 122px; min-width: 1px; min-height: 1px;" data-name="image-6a9657" data-block-id="2bf50d5b344ac87de963a0bf5823f47d"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="960" data-natural-height="540" data-lazy-loaded="" data-src="deep-learning-daten-erkunden/c5e75e79ca27bea139f5636f5bce2cd6.jpg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 339.644px; top: 674.5px;" data-name="text-b62ef1" data-block-id="3c3f102161929a19c935bbc5a86f393a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p><a href="https://towardsdatascience.com/machine-learning-basics-part-1-a36d38c7916" target="_blank">Mehr zum Thema</a></p></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="712cd093d1b327ddf9cb7c5f844069e5"><div class="sl-block-content" style="z-index: 13;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/RpIPbP0iJqc?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="ad0ada15e658dc39260793b8d5bfb23d">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 21px;" data-name="text-fb64a9" data-block-id="df206e893957bb48588cc332174e740d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Supervised</h2></div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 640px; height: 360px; left: 0px; top: 259.7px; min-width: 1px; min-height: 1px;" data-name="image-c61a79" data-block-id="766133e17ede28e14ca2fa0de4db1eea"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="960" data-natural-height="540" data-lazy-loaded="" data-src="deep-learning-daten-erkunden/fd0fcc5d7ea18b0df9e5ffe24ecf2d8e.gif"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 112.5px;" data-name="text-37b8cf" data-block-id="2ceed8d236a3df16331d8df53496f73d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>Lernen mit Zieldaten (Label /  Target)</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 640px; left: 640px; top: 256.5px;" data-name="text-66b5d9" data-block-id="3b6b4958bd80cff5612df83c4330eefd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; line-height: 3.9;" data-has-line-height=""><ul>
+	<li>Target fuer jeden Datensatz</li>
+	<li>Training durch vergleich Output = Target</li>
+	<li>Klassifizierung, Spracherkennung</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="6bf3f475f885596a2169d1d8a7756c81"><div class="sl-block-content" style="z-index: 14;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/vWijy-YZxu0?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="c4fff10bb643b830001169e646f9db2f">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 21px;" data-name="text-fb64a9" data-block-id="fececfed36813560800aaf15c1f3a4fe"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Unsupervised</h2></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 113.5px;" data-name="text-37b8cf" data-block-id="2c6e5dc3f4d6c6992a520a771b0c93f5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Lernen ohne Zieldaten</p></div></div>
+<div class="sl-block" data-block-type="image" style="width: 640px; height: 491.614px; left: 0px; top: 194.193px; min-width: 1px; min-height: 1px;" data-name="image-5e71f4" data-block-id="584ef30a19eb6aa6eb89789e944e3d69"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="1846" data-natural-height="1418" data-lazy-loaded="" data-src="deep-learning-daten-erkunden/dcbb78cc860955a849bcbd05046949e1.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 640px; top: 264.5px;" data-name="text-d2acb7" data-block-id="b5c4a5908d11e69f7eeb5b9be2588adb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; line-height: 3.9;" data-has-line-height=""><ul>
+	<li>Kein Target pro Datensatz</li>
+	<li>Muster &amp; Strukturen erkennen </li>
+	<li>Clustering, Dimensionsreduktion</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="3767c2877869a65a9965294ba56ed2bc"><div class="sl-block-content" style="z-index: 14;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/p3RfGkC-pHU?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="64af525ef7aaa503f4dc0d665660962c">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 21px;" data-name="text-fb64a9" data-block-id="172807f40aa35d422fb1bf33ca3b947f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Reinforcement</h2></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 112.5px;" data-name="text-d47e76" data-block-id="877cad40c4eed1ce1863d26c5256de6b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Interaktion mit Umgebung</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 660px; top: 256.5px;" data-name="text-21ed4d" data-block-id="72fc35d7dc4dc4be6b285b82faa4d223"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 3.9;" data-has-line-height=""><ul>
+	<li>Lernen durch Interaktion</li>
+	<li>Belohnung &amp; Bestrafung</li>
+	<li>Spiele, Roboter, Autonome Systeme</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="7ef9000c11829237e597ae4fc9f6dd01"><div class="sl-block-content" style="z-index: 13;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/ICX-L_H5BKA?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div>
+<div class="sl-block" data-block-type="image" style="width: 660px; height: 346.113px; left: 0px; top: 256.5px; min-width: 1px; min-height: 1px;" data-name="image-c2b8d3" data-block-id="c45c5fa1b161ad25e869912fb1b96580"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="1024" data-natural-height="537" data-lazy-loaded="" data-src="deep-learning-daten-erkunden/270fdb215e8ad9d926bb982eca292197.png"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="3fdaa5683b374e027e46179b035ba759">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 21px;" data-name="text-fb64a9" data-block-id="ed8d822293d0a83efec833596f45f921"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Daten Erkunden</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 223.5px;" data-name="text-558c8e" data-block-id="5a8d0fbe6778970191e54600ae6aa5b0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>Verstehen: Inhalt, Format, Label, Metadaten<br>
+	<br>
+	 </li>
+	<li>Visualisieren: Verteilung, Korrelation, Ausreisser<br>
+	<br>
+	 </li>
+	<li>Preprocessing: normalisieren, skalieren, enkodieren, balancieren</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 681px;" data-name="text-794d72" data-block-id="84611daa7e91353b27688cab3fc8be1d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p><a href="https://towardsdatascience.com/15-data-exploration-techniques-to-go-from-data-to-insights-93f66e6805df" target="_blank">Mehr Data-Exploration Techniken</a></p></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="10cd2f29b5d108f21e84fa1e61284119"><div class="sl-block-content" style="z-index: 13;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/Sk_cPEWDKa4?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="974037c0eb7e24a1d23298b0fa3b23c6">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 21px;" data-name="text-fb64a9" data-block-id="d8e5384bb4546c37f3ded22aa8588bff"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Daten Erkunden</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 689px; left: 295.5px; top: 123.5px;" data-name="text-b9bd49" data-block-id="7714b9ff544a5895daf998956362e30b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>Hands-On: MNIST Datensatz</p>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 172.5px;" data-name="text-9ead63" data-block-id="c8f869954678834226dec70af30edaa0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>Welche Daten enthält der Datensatz?</p></div></div>
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 32px; left: 390px; top: 426px;" data-name="code-c18ba7" data-block-id="6080f7ae5541bbd5a805facb64d382bc"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 13;"><pre style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">data.shape -&gt; (N_data, size_input)</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 307px;" data-name="text-2318fc" data-block-id="e8a37eb526fefed73f815de8775840c2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;"><p>Die shape eines Datensatzes zeigt die Anzahl der Elemente (N_data) sowie das format der einzelnen Elemente (size_input)</p></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="a78b736ba124fb7102d533bb838759a3"><div class="sl-block-content" style="z-index: 15;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/T3MX94rx71o?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="7cb08fa2a6870524e7b541a5500f6825">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 21px;" data-name="text-fb64a9" data-block-id="6870d0e8cf2629a22d5259c96e0aedb5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Daten Erkunden</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 689px; left: 295.5px; top: 123.5px;" data-name="text-b9bd49" data-block-id="11f228d5d4ca5acd4a51c37d2194ea4e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>Hands-On: MNIST Datensatz</p>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 172.5px;" data-name="text-9ead63" data-block-id="60ff4d68beeed89d7d29cfdb90af1742"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>Welches Format haben die Daten?</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 295.5px;" data-name="text-1a4ce9" data-block-id="3b450631e4df005424b5312a7e821d7d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><p>Die type(x) Funktion gibt die Klasse von x an</p></div></div>
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 35px; left: 390px; top: 369.5px;" data-name="code-154547" data-block-id="d2257ecf3c833e8acc43cbd800056c31"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 14;"><pre style="font-size: 20px; line-height: 24px;" class="python"><code data-line-numbers="">type(data[0]) -&gt; class</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 431.5px;" data-name="text-542e0c" data-block-id="04fdfb7f0716c03db15b7746796a6ae9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;"><p>Die built-in Funktion x.dtype gibt den Datentyp von x an</p></div></div>
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 31px; left: 390px; top: 515.5px;" data-name="code-5fcc79" data-block-id="cf15b351a404094475cea889ad7d75ff"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 16;"><pre style="font-size: 20px; line-height: 24px;" class="python"><code data-line-numbers="">data.dtype -&gt; data_type</code></pre></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="ce9f41ca6d1c035f5cab7a921e0d18ce"><div class="sl-block-content" style="z-index: 17;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/c-gqSSRz8Jk?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="b2d3a39def318a2b483a63fbdc744796">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 21px;" data-name="text-fb64a9" data-block-id="c1f6c95268eebe6e6e4cce55c963c6e5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Daten Erkunden</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 689px; left: 295.5px; top: 123.5px;" data-name="text-b9bd49" data-block-id="12bc59ff2f60e36cd7073eb203f0f89c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>Hands-On: MNIST Datensatz</p>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 172.5px;" data-name="text-9ead63" data-block-id="cd7fbefb76e801f80ecbe4dc17fdf2bc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>Welche Klassen gibt es und wie sind diese verteilt?</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 266.5px;" data-name="text-7645b7" data-block-id="c5fe8ef434d6d29abba8931b418dbcda"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><p>numpy.unique(x) liefert eine liste aller Elemente die in x vorkommen</p></div></div>
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 32px; left: 390px; top: 348.5px;" data-name="code-b9663e" data-block-id="2dceed5ebfa116a029ea4cc1726dcad6"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 14;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">labels = np.unique(target)</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 411.5px;" data-name="text-00fa22" data-block-id="200e326b8c4e3e6af4044115620faec3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;"><p>numpy.bincount(x) liefert die Anzahl von Integerwerten in x, geordnet nach Zahlenwert der Integer</p></div></div>
+<div class="sl-block" data-block-type="code" style="width: 525px; height: 38px; left: 390px; top: 513px;" data-name="code-2516f0" data-block-id="2701626acfdd5773e8cb5ae3d3696b82"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 16;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">counts = np.bincount(target.astype(int))</code></pre></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="cb6425edff7702aa6368c9decd053429"><div class="sl-block-content" style="z-index: 17;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/swzmrTXlfkU?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="9984c5faefeb5f50a9de1d457d0a7c74">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 21px;" data-name="text-fb64a9" data-block-id="bdd4eb9cdf6f8d62fb32d256d449ca6d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Daten Erkunden</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 689px; left: 295.5px; top: 123.5px;" data-name="text-b9bd49" data-block-id="61a2f923d083a72d62d49893e336f32a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>Hands-On: MNIST Datensatz</p>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 172.5px;" data-name="text-9ead63" data-block-id="ddefb21b30d305ab97336ee3d2a7c860"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>Wie machen wir die Klassen dem Modell verständlich?</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 289.5px;" data-name="text-a75df9" data-block-id="64ed6e5898cc40f56bd1bc4435127290"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><p>Um Stringlabel in für das Modell verständliche Floats zu verwandeln nutzen wir One-Hot-Encoding</p></div></div>
+<div class="sl-block" data-block-type="code" style="width: 685px; height: 138px; left: 297.5px; top: 388px;" data-name="code-8cdf55" data-block-id="db95d800ef729a04d15490d38ee46b00"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 14;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers=""># zB "3" -&gt; [0,0,0,1,0,0,0,0,0,0]
+# 
+from sklearn.preprocessing import OneHotEncoder
+encoder = OneHotEncoder()
+labels = encoder.fit_transform(target)</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 557.5px;" data-name="text-5db67d" data-block-id="4a6607d9eeaac0b2fca16f85a3490cf4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;"><p>Achtung: Die letzte Zeile erwartet hier target mit shape (N,1)</p></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="38c00919b7fb50d742f7eb76c75f781a"><div class="sl-block-content" style="z-index: 16;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/6YUPtt1gLBE?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="0a004bdb59603091256ea61e6aa18277">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 21px;" data-name="text-fb64a9" data-block-id="5b82170f94f978bf51d64747213236f2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Daten Erkunden</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 689px; left: 295.5px; top: 123.5px;" data-name="text-b9bd49" data-block-id="7bd59b4bb267d30354550765f1209203"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>Hands-On: MNIST Datensatz</p>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 172.5px;" data-name="text-9ead63" data-block-id="f1c1cd3059c8a10e2207c0bde98183b9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>Welche Skalierung der Daten ist sinnvoll?</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 248px;" data-name="text-a75df9" data-block-id="804873be3ecfabd9c778b0f7ca0a1d65"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><ul>
+	<li>Knoten: Summe vieler Werte -&gt; sehr grosse Werte</li>
+	<li>  Features: grösseres Wertinterval ~ stärkeres Gewicht.</li>
+	<li>=&gt; Input-Daten auf [-1,1] skaliert.</li>
+	<li>idR mit Min-Max scaling</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 390px; top: 490.5px;" data-name="math-6b236e" data-block-id="04277201386364e851fcf4dd9e78c34a"><div class="sl-block-content notranslate" style="z-index: 14;"><div class="math-input">\frac{{data - \min(data)}}{{\max(data) - \min(data)}} \cdot 2 - 1</div></div></div>
+<div class="sl-block" data-block-type="code" style="width: 960px; height: 36px; left: 160px; top: 623.5px;" data-name="code-244769" data-block-id="eaef18ca0ad27177a3e3ed216c00be3a"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 15;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">scaled_data = (data - np.min(data)) / (np.max(data) - np.min(data)) * 2 - 1
+</code></pre></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="8f7378ffe0b80db9735b190ca55afec3"><div class="sl-block-content" style="z-index: 16;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/PG53gcP159s?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="8343c46e94622523e063d97f58d940b0">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 21px;" data-name="text-fb64a9" data-block-id="a93a8e70ccb9129147f47bb79f4c4f56"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Daten Erkunden</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 689px; left: 295.5px; top: 123.5px;" data-name="text-b9bd49" data-block-id="70416a54e4a465566fc372ba24176992"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>Hands-On: MNIST Datensatz</p>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 208.5px;" data-name="text-9ead63" data-block-id="646ed43a779d5ffffde4d05a22872111"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>Öffnen sie <a href="https://colab.research.google.com/drive/1WZkmGmj99lv_Cd0gWNhhMh4TbTG6dZoJ?usp=sharing" target="_blank">dieses Notebook</a> und bearbeiten Sie die Aufgaben. Beantworten Sie so folgende Fragen:</p>
+
+<ol>
+	<li>Welche Daten enthält der Datensatz?</li>
+	<li>Welches Format haben die Daten?</li>
+	<li>Welche Klassen gibt es und wie sind diese verteilt?</li>
+	<li>Wie machen wir die Klassen dem Modell verständlich?</li>
+	<li>Welche Skalierung der Daten ist sinnvoll?</li>
+</ol>
+
+<p> </p>
+
+<p>Die Lösung finden Sie in <a href="https://colab.research.google.com/drive/1Cvtpf5XNIKo_q3OBPQ1n38hZgNxu6VUE?usp=sharing" target="_blank">diesem Notebook</a></p>
+</div></div>
+
+<div class="sl-block" data-block-type="iframe" style="width: 240px; height: 180px; left: 1040px; top: 1px;" data-name="iframe-fb768e" data-block-id="36661c1c5a00d9bf5aba6158d208208e"><div class="sl-block-content" style="z-index: 14;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="https://www.youtube.com/embed/PRY5MWJky-w?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":3443608,"slug":"deep-learning-daten-erkunden","title":"Deep Learning Grundlagen - Daten Erkunden","description":"","width":1280,"height":720,"margin":0.05,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/b4942371ecd68c61eff7e2aa658cb2c7/thumb.jpg?1755094408","view_count":0,"user":{"id":2458893,"username":"stefanhackstein","name":"Stefan Hackstein","description":null,"thumbnail_url":"https://lh3.googleusercontent.com/a/AAcHTteP1enz_27e7qvXw7hJWWWam3Nr4u8A0lNPTfK9NiXPSA=s96-c","account_type":"lite","team_id":null,"settings":{"id":57052205,"present_controls":false,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"black-blue","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":12,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1755202764207,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"language":"en","notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 1280,
+				height: 720,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				scrollActivationWidth: null,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+
+	</body>
+</html>

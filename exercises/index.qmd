@@ -1,9 +1,14 @@
 ---
-title: "Übersicht"
+title: "Exercises"
 ---
 
-| {{< bi collection >}} Thema | {{< bi clock >}} Dauer |
-|-------|--------|
-| [Übung 1: Tutor erstellen](exercise-1/index.qmd) | 10 min |
-| [Übung 2: Copilot Agenten erstellen](exercise-2/index.qmd) | 25 min |
-| [Übung 3: Eigenen Agenten erstellen](exercise-3/index.qmd) | 45 min |
+| {{< bi collection >}} Thema | 
+|-------|
+| [Exercise 1: Daten Erkunden](1-daten_erkunden.qmd) |
+| [Exercise 2: Modell & Training](2-training.qmd) |
+| [Exercise 3: Evaluieren](3-evaluieren.qmd) |
+| [Exercise 4: Overfitten](4-overfitting.qmd) |
+| [Exercise 5: Regularisieren](5-regularisieren.qmd) |
+| [Exercise 6: Optimieren](6-optimieren.qmd) |
+| [Exercise 7: Anwendung](7-anwendung.qmd) | 
+| [Exercise 8: Nächste Schritte](8-schritte.qmd) |

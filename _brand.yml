@@ -8,6 +8,7 @@ color:
 
 logo: 
    small: assets/logo-fhnw.png
+   medium: assets/1x1.png
 
 typography:
   fonts:

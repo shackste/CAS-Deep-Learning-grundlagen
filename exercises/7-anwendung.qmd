@@ -1,0 +1,23 @@
+---
+title: "7 - Anwendung"
+---
+
+# Hands-On: TensorFlow CIFAR-10
+
+Starten Sie mit [diesem Notebook](https://colab.research.google.com/drive/1sylN9rwqn7fLWKeHs2G9yOAfD2t6hnuc?usp=sharing).
+
+Bearbeiten Sie folgende Aufgaben:
+
+::: {.pro-tip collapse="false"}
+## Aufgaben
+
+- Klassifizieren Sie den CIFAR-100
+- Vergleichen Sie verschiedene Regularisationsmethoden an CNN
+- Führen Sie ein Hyperparametertuning durch
+:::
+
+::: {.callout-note collapse="true"}
+## Lösung
+
+Die Lösung finden Sie in [diesem Notebook](https://colab.research.google.com/drive/1oBHBojEeUrqz9Kde2ygT-7VQVe1RWtwY?usp=sharing)
+:::

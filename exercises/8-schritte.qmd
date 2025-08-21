@@ -1,0 +1,47 @@
+---
+title: "8 - Nächste Schritte"
+---
+
+# Aufgabenübersicht
+
+Im folgenden stehen Ihnen 3 Aufgaben mit verschiedenem Kontext und Fokus zur Verfügung.
+Mit diesen können Sie nun das erworbene Wissen umsetzen und direkte Erfahrung in realistischen Deep Learning Aufgaben sammeln.
+Beginnen Sie mit der Aufgabe Ihrer Wahl.
+
+::: {.pro-tip collapse="true"}
+## Aufgabe 1: Nochmal von Vorne... (Immage Classification, Trainieren)
+
+**Hands-On: Cifar-100 Classification**
+
+Starten Sie mit [diesem Notebook](https://colab.research.google.com/drive/1tv3-74uV4_whyt964k-9IliI9xza4t5d?usp=sharing).
+
+- Erstellen, trainieren und evaluieren Sie einen Classifier für den **Cifar-100** Datensatz.
+:::
+
+::: {.pro-tip collapse="true"}
+## Aufgabe 2: Aufs Wichtige beschränken (Rauschreduktion, Optimieren)
+
+**Hands-On: Audio Noise Reduction**
+
+Starten Sie mit [diesem Notebook](https://colab.research.google.com/drive/1G_HHyKII5LMydZk9GM2FfHVz9k3_MN7y?usp=sharing).
+
+- Optimieren Sie die Audio-Entrauschung so, dass der Output **weniger Rauschen** zeigt als der Input, die Sprache aber trotzdem **verständlich** bleibt.
+:::
+
+::: {.pro-tip collapse="true"}
+## Aufgabe 3: Squeeze the Juice ... (Anomaly Detection, Evaluieren)
+
+**Hands-On: Pytorch MNIST Anomaly Detection**
+
+Betrachten Sie [dieses Notebook](https://colab.research.google.com/drive/1EVFNWMULZbfnFO4YLROMdEVohcN4_lJf?usp=sharing).
+
+- Versuchen Sie, die Performance **eines** der folgenden Outputs zu verbessern:  
+  - Classifier  
+  - Generator (Variational Autoencoder)  
+  - Anomaly Detection  
+
+- Vergleichen Sie die Ergebnisse der verschiedenen Anomaly-Detection-Methoden:  
+  - Isolation Forest  
+  - Mahalanobis-Distanz  
+  - VAE-Reconstruction Error
+:::

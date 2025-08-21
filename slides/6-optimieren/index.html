@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="manifest" href='data:application/manifest+json,{"display": "standalone", "name": "Deep Learning Grundlagen - Optimieren"}' />
+		<title>Deep Learning Grundlagen - Optimieren</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-black-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-auto-animate-easing="linear" data-background-image="deep-learning-optimieren/0a1845b257e810c9c8363b05b9232b97.jpg" data-background-size="contain" data-auto-animate="" data-id="d5a423edfbbd84a21d0d105bc3d8f6af">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 386px; left: 447px; top: 315.5px;" data-name="text-fb64a9" data-block-id="615a9fe3025d3996b37d5ea19c89171b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; background-color: rgb(204, 204, 204); color: rgb(0, 0, 0); line-height: 1.56;" data-has-line-height=""><h2>Optimieren</h2></div></div>
+
+
+
+
+
+
+</section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="34be7d69293170e0971c249a45cf7a05">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="f36f67bdc6fa49112f6f379d24dfb8ed"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h2>Optimieren</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="image" style="width: 934.328px; height: 626px; left: 172.836px; top: 84px; min-width: 1px; min-height: 1px;" data-name="image-894e5c" data-block-id="857b94881c11aafa25b483dfa98f4e2d"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="600" data-natural-height="402" data-lazy-loaded="" data-src="deep-learning-optimieren/c139b62fc558b4ddde57d5384e4eead6.gif"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="4e78a6d89926a26071e309137837f5b6">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="5e5fa920d12e79f3933ffaea6c231334"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Optimieren</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="image" style="width: 959.89px; height: 537.821px; left: 160.11px; top: 118.179px; min-width: 1px; min-height: 1px;" data-name="image-75358c" data-block-id="29386652c61169eb04f465c5416b674c"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="680" data-natural-height="381" data-lazy-loaded="" data-src="deep-learning-optimieren/b528a7a8b02a46a53185e197c9d7689e.gif"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="58b767800f10b9aa62e7eb268981495a">
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 150px;" data-name="text-1e5246" data-block-id="a28d8aa5ba3480fda3b54ff5a2c96a8e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<p>Modell auf unbekannten Daten optimieren</p>
+
+<p>aber</p>
+
+<p>Testset erst ganz zum Schluss verwenden</p>
+</div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="5677f13d7f84d565087bfc4fd5c072b6">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 395px;" data-name="text-fb64a9" data-block-id="474137b45d05de26cc212c0aa268efad"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Train-Test-Valid Split</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 150px;" data-name="text-1e5246" data-block-id="589bd51c7dc71c46e326568250fef80c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p>Modell auf unbekannten Daten optimieren</p>
+
+<p>aber</p>
+
+<p>Testset erst ganz zum Schluss verwenden</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 340.5px;" data-name="text-3103e8" data-block-id="dd52de2ca7f6b68edd7f8c6e888f04a4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p>Weiteres Datenset absplitten</p></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="b43445ccfaf4e307a87280de27767a01">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="d4611c97b473815f760bf3d08aac802c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Train-Test-Valid Split</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-52a830" data-block-id="deb62075e6e24bfb318f7f1c353effb4"><div class="sl-block-content sl-block-group-content" style="transform-origin: 640px 405.305px; z-index: 11;">
+<div class="sl-block" data-block-type="image" style="width: 1083px; height: 258.189px; left: 98.5px; top: 90.61px; min-width: 1px; min-height: 1px;" data-name="image-e816d3" data-block-id="08734485ef630dbf86cb5975871bad18"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="776" data-natural-height="185" data-lazy-loaded="" data-src="deep-learning-optimieren/10780bdfc3088847a867b74ffad5bcb4.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 1083px; height: 371.201px; left: 98.5px; top: 348.799px; min-width: 1px; min-height: 1px;" data-name="image-626948" data-block-id="ee7cd57c193413a671eabd5753f72c48"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="901" data-natural-height="439" data-crop-x="0" data-crop-y="0.123377" data-crop-width="1" data-crop-height="0.703463" style="left: 0px; top: -65px; width: 1083px; height: 528px;" data-lazy-loaded="" data-src="deep-learning-optimieren/01560c0a02f336ce7c8ae326d0d5de72.png"></div></div>
+</div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="f31d267b348ebdac20acda39f55f19ef">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="a92f7ad2c04df3a7ff30c4f2a524b313"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Train-Test-Valid Split</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-52a830" data-block-id="f7659d6153f957333e5d5a5227ad3b98"><div class="sl-block-content sl-block-group-content" style="transform-origin: 640px 405.305px; z-index: 11;">
+<div class="sl-block" data-block-type="image" style="width: 1083px; height: 258.189px; left: 98.5px; top: 90.61px; min-width: 1px; min-height: 1px;" data-name="image-e816d3" data-block-id="b09d862a11860621250edd8604df36dd"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="776" data-natural-height="185" data-lazy-loaded="" data-src="deep-learning-optimieren/10780bdfc3088847a867b74ffad5bcb4.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 1083px; height: 371.201px; left: 98.5px; top: 348.799px; min-width: 1px; min-height: 1px;" data-name="image-626948" data-block-id="f6026ffa26fafc8aeb3d4a0095faba8d"><div class="sl-block-content" style="z-index: 15;"><img class="" data-natural-width="901" data-natural-height="439" data-crop-x="0" data-crop-y="0.123377" data-crop-width="1" data-crop-height="0.703463" style="left: 0px; top: -65px; width: 1083px; height: 528px;" data-lazy-loaded="" data-src="deep-learning-optimieren/01560c0a02f336ce7c8ae326d0d5de72.png"></div></div>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 978px; left: 151px; top: 263.799px;" data-name="text-aeed25" data-block-id="fc06f0afb16c2e9c850d96c42665dffb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 0, 0);">
+<p style="text-align:left">Machine Learning                             60%                     20%                   20%</p>
+
+<p style="color:rgb(0, 0, 0); text-align:left">Deep Learning                                   98%                       1%                     1%</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 660px; top: 348.799px;" data-name="text-ba62f2" data-block-id="f9d4ea91fa0770cffb3b8528fc6eb6af"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border-style: solid; border-width: 5px; border-color: rgb(255, 0, 0); line-height: 1.56;" data-has-line-height=""><p><strong>Gross genug für stabile Statistik </strong></p></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="31fba780c3d2451f07ba5f065fc1565d">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="d86e7bc38e6fe1fd971e89410816e486"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Train-Test-Valid Split</h2></div></div>
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 932px; left: 0px; top: 165px;" data-name="text-78e667" data-block-id="5723aacdc0a8478e8c2ecb9b8cf55446"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 2.6;" data-has-line-height=""><ol>
+	<li>verschiedene Settings wählen (Hyperparameter / Architektur)</li>
+	<li>für wenige Epochen trainieren</li>
+	<li>Leistung auf Validationsdaten vergleichen</li>
+	<li>Setting mit bester Leistung voll trainieren</li>
+	<li>Trainiertes Modell auf Testset Evaluieren</li>
+</ol></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-52a830" data-block-id="6234fcee452fc319a428cad0a4106326"><div class="sl-block-content sl-block-group-content" style="transform-origin: 1006.46px 561.033px; z-index: 12;">
+<div class="sl-block" data-block-type="image" style="width: 547.074px; height: 130.424px; left: 732.925px; top: 402.065px; min-width: 1px; min-height: 1px;" data-name="image-e816d3" data-origin-id="2aa44cc6cdb64f45ac656ff25f298f3f" data-block-id="b8485344ceef81e9f148696968752ca1"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="776" data-natural-height="185" data-lazy-loaded="" data-src="deep-learning-optimieren/10780bdfc3088847a867b74ffad5bcb4.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 547.075px; height: 187.511px; left: 732.925px; top: 532.489px; min-width: 1px; min-height: 1px;" data-name="image-626948" data-origin-id="e28345a7bbfa4c2bf8a8793ed4c7fee9" data-block-id="cf1abea719f423ec4f9c3a59bac7348d"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="901" data-natural-height="439" data-crop-x="0" data-crop-y="0.123377" data-crop-width="1" data-crop-height="0.703463" style="left: 0px; top: -33px; width: 547px; height: 267px;" data-lazy-loaded="" data-src="deep-learning-optimieren/01560c0a02f336ce7c8ae326d0d5de72.png"></div></div>
+</div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="96399861723bfd8cd741bbc2d840e68d">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="951186b60d455bc5966f85d2bba05c50"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Train-Test-Valid Split</h2></div></div>
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 908px; left: 0px; top: 165px;" data-name="text-78e667" data-block-id="1d7d4b318c7e0579c8963a55b0a8ef36"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 1.69;" data-has-line-height=""><ol>
+	<li>verschiedene Settings wählen (Hyperparameter / Architektur)</li>
+	<li>für wenige Epochen trainieren</li>
+	<li>Leistung auf Validationsdaten vergleichen</li>
+	<li>Setting mit bester Leistung voll trainieren</li>
+	<li>Trainiertes Modell auf Testset Evaluieren</li>
+</ol></div></div>
+<div class="sl-block" data-block-type="code" style="width: 728.356px; height: 302px; left: -25.068px; top: 418px;" data-name="code-7d2b97" data-block-id="c0f4f09d52f4fd129d527aff7553b008"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre class="python" style="font-size: 18px; line-height: 22px;"><code data-line-numbers="">from torch.utils.data import random_split
+train_ratio, valid_ratio = 0.8, 0.2
+
+# Gesamteanzahl der Trainingsdaten
+N_training = len(training_data)
+
+# Berechne die Anzahl der Beispiele für jeden Split
+train_size = int(train_ratio * N_training)
+valid_size = N_training - train_size
+
+# Teile den Trainingsdatensatz in Train und Valid auf
+train_data, valid_data = random_split(training_data, 
+                                      [train_size, valid_size])
+</code></pre></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-52a830" data-block-id="c6e9eee1876bdd48973e417a04aeefd5"><div class="sl-block-content sl-block-group-content" style="transform-origin: 1006.46px 561.033px; z-index: 13;">
+<div class="sl-block" data-block-type="image" style="width: 547.074px; height: 130.424px; left: 732.925px; top: 402.065px; min-width: 1px; min-height: 1px;" data-name="image-e816d3" data-origin-id="b8485344ceef81e9f148696968752ca1" data-block-id="4d6aa682f426d738f1f6f4058b4ac5b8"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="776" data-natural-height="185" data-lazy-loaded="" data-src="deep-learning-optimieren/10780bdfc3088847a867b74ffad5bcb4.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 547.075px; height: 187.511px; left: 732.925px; top: 532.489px; min-width: 1px; min-height: 1px;" data-name="image-626948" data-origin-id="cf1abea719f423ec4f9c3a59bac7348d" data-block-id="d04cba32416f4df4cb6969dfa41edb93"><div class="sl-block-content" style="z-index: 15;"><img class="" data-natural-width="901" data-natural-height="439" data-crop-x="0" data-crop-y="0.123377" data-crop-width="1" data-crop-height="0.703463" style="left: 0px; top: -33px; width: 547px; height: 267px;" data-lazy-loaded="" data-src="deep-learning-optimieren/01560c0a02f336ce7c8ae326d0d5de72.png"></div></div>
+</div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="9c4a856b03e923dfe1d4b9ec22df10d1">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: -44px; top: 11px;" data-name="text-fb64a9" data-block-id="27d85f3871e536c84330c5c3f18e7006"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Train-Test-Valid Split</h2></div></div>
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 916px; left: 0px; top: 165px;" data-name="text-78e667" data-block-id="15e47ccc7ac2fa2526d529d11f93bfc0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 1.69;" data-has-line-height=""><ol>
+	<li>verschiedene Settings wählen (Hyperparameter / Architektur)</li>
+	<li>für wenige Epochen trainieren</li>
+	<li>Leistung auf Validationsdaten vergleichen</li>
+	<li>Setting mit bester Leistung voll trainieren</li>
+	<li>Trainiertes Modell auf Testset Evaluieren</li>
+</ol></div></div>
+<div class="sl-block" data-block-type="code" style="width: 728.356px; height: 302px; left: -113.068px; top: 425px;" data-name="code-7d2b97" data-block-id="f81f3effef26289d25b71938d5cba725"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre class="python" style="font-size: 18px; line-height: 22px;"><code data-line-numbers="">from torch.utils.data import random_split
+train_ratio, valid_ratio = 0.8, 0.2
+
+# Gesamteanzahl der Trainingsdaten
+N_training = len(training_data)
+
+# Berechne die Anzahl der Beispiele für jeden Split
+train_size = int(train_ratio * N_training)
+valid_size = N_training - train_size
+
+# Teile den Trainingsdatensatz in Train und Valid auf
+train_data, valid_data = random_split(training_data, 
+                                      [train_size, valid_size])
+</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 853px; height: 262px; left: 503px; top: 418px;" data-name="code-5cb5f9" data-block-id="a865fdb6c848bbd3101ca27bf6326523"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 13;"><pre class="python" style="font-size: 16px; line-height: 19px;"><code data-line-numbers="">import tensorflow as tf
+from sklearn.model_selection import train_test_split
+valid_ratio = 0.2
+
+input_data = your_input_data
+labels = your_labels
+
+input_train, input_valid, labels_train, labels_valid = 
+	train_test_split(input_data, labels, test_size=valid_ratio, random_state=42)
+
+# Create TensorFlow Datasets
+train_dataset = tf.data.Dataset.from_tensor_slices((input_train, labels_train))
+valid_dataset = tf.data.Dataset.from_tensor_slices((input_valid, labels_valid))
+</code></pre></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-52a830" data-block-id="85bb11e457854761585e283cde115faf"><div class="sl-block-content sl-block-group-content" style="transform-origin: 1098px 116.77px; z-index: 14;">
+<div class="sl-block" data-block-type="image" style="width: 363.999px; height: 86.7782px; left: 916px; top: 11px; min-width: 1px; min-height: 1px;" data-name="image-e816d3" data-origin-id="b8485344ceef81e9f148696968752ca1" data-block-id="64eac42064415c40f2bfd1298d5355e8"><div class="sl-block-content" style="z-index: 15;"><img class="" data-natural-width="776" data-natural-height="185" data-lazy-loaded="" data-src="deep-learning-optimieren/10780bdfc3088847a867b74ffad5bcb4.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 364px; height: 124.762px; left: 916px; top: 97.7782px; min-width: 1px; min-height: 1px;" data-name="image-626948" data-origin-id="cf1abea719f423ec4f9c3a59bac7348d" data-block-id="a0cc57869cc25629b46615fd0131313d"><div class="sl-block-content" style="z-index: 16;"><img class="" data-natural-width="901" data-natural-height="439" data-crop-x="0" data-crop-y="0.123377" data-crop-width="1" data-crop-height="0.703463" style="left: 0px; top: -22px; width: 364px; height: 177px;" data-lazy-loaded="" data-src="deep-learning-optimieren/01560c0a02f336ce7c8ae326d0d5de72.png"></div></div>
+</div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="0a43af04b8f18f21f84c81c791181044">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="69ba10ed00f059646ea5c3f66613e8bf"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Hyperparameter</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="image" style="width: 1036.45px; height: 554.4px; left: 121.775px; top: 93.6px; min-width: 1px; min-height: 1px;" data-name="image-3f5905" data-block-id="741df5b34cc1fe89440ef21810b32dc0"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="1146" data-natural-height="613" data-lazy-loaded="" data-src="deep-learning-optimieren/f489b7be845c57875018138157af494c.png"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="1a43e483f03475367206c70d63694055">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="a84f23e156d0060893baeebf905b1a4d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Hyperparameter</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="image" style="width: 664.418px; height: 355.4px; left: 0px; top: 84px; min-width: 1px; min-height: 1px;" data-name="image-3f5905" data-block-id="b9e687c7b9c024b05c34a7c35dacad57"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="1146" data-natural-height="613" data-lazy-loaded="" data-src="deep-learning-optimieren/f489b7be845c57875018138157af494c.png"></div></div>
+<div class="sl-block" data-block-type="code" style="width: 720px; height: 448px; left: 560px; top: 272px;" data-name="code-02d3ce" data-block-id="6e889a20969b97592e53686474060147"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">class MLP_var(nn.Module):
+    def __init__(self, N_layer: int):
+        super(MLP_var, self).__init__()
+        layers = []
+        layers.append(nn.Linear(28*28, 64))
+        layers.append(nn.ReLU())
+        for _ in range(N_layer-1):
+            layers.append(nn.Linear(64, 64))
+            layers.append(nn.ReLU())
+        layers.append(nn.Linear(64, 10))
+        self.model = nn.Sequential(*layers)
+
+    def forward(self, x):
+        x = x.view(x.size(0), -1)
+        x = self.model(x)
+        return x
+</code></pre></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="85d2c16e6537d2ad4293d57219965415">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="bd5f9fe1b34f8050c8d0813973428b17"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Hyperparameter Search</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="image" style="width: 754.168px; height: 444.8px; left: 262.916px; top: 144px; min-width: 1px; min-height: 1px;" data-name="image-d771ef" data-block-id="bca94dd751098f081ca8c05f4a30d7cb"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="568" data-natural-height="335" data-lazy-loaded="" data-src="deep-learning-optimieren/d855dfaea1e2cee4f66d6a0a581ebe4f.jpg"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="0c93c79fe11a8d3dc210c0eea96593c1">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="14799e9a8577cc44aa40a9924659a63d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Hyperparameter Search</h2></div></div>
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 116.5px;" data-name="text-3f75ba" data-block-id="3ebd79df627f7b7004d836b130746be7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Try different Values, pick best score</p></div></div>
+<div class="sl-block" data-block-type="image" style="width: 1015.85px; height: 535.5px; left: 132.075px; top: 184.5px; min-width: 1px; min-height: 1px;" data-name="image-b79cd7" data-block-id="feca310954b032cf1bd583c0b0aa6a7d"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="571" data-natural-height="301" data-lazy-loaded="" data-src="deep-learning-optimieren/5230e13624537620fa654c6b71e88ae6.png"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="65d8c7cd5488677aa849a16389ea23e5">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="e746306beac7fe8ab7aec17d7ccf2e02"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Hyperparameter Search</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 116.5px;" data-name="text-3f75ba" data-block-id="2c7749695787613ac5a6746afc8e7470"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Try different Values, pick best score</p></div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 926px; height: 539px; left: 177px; top: 181px; min-width: 1px; min-height: 1px;" data-name="image-d3048e" data-block-id="101ff66957ed65b69d8bde84b1874db4"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="926" data-natural-height="539" data-lazy-loaded="" data-src="deep-learning-optimieren/3a7d7d00f51b4c2188df9e85c89b566c.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 273.169px; height: 144px; left: 0px; top: 0px; min-width: 1px; min-height: 1px;" data-name="image-b79cd7" data-block-id="8ee7ff0de4810fdd25348d6e07e0cda8"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="571" data-natural-height="301" data-lazy-loaded="" data-src="deep-learning-optimieren/5230e13624537620fa654c6b71e88ae6.png"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="189504d9ec3ed7bc34961505b3ae031e">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="ed2ddfc8a2643d44e04b07fc3b478246"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Hyperparameter Search</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 116.5px;" data-name="text-3f75ba" data-block-id="0a3ac435db83221223663de6fe27b545"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Gridsearch</p></div></div>
+
+
+<div class="sl-block" data-block-type="code" style="width: 1126px; height: 230px; left: 77px; top: 245px;" data-name="code-482d9a" data-block-id="19726dbf876a1dbfe4a2adbee3665514"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">for (N_layer, lr) in product(N_layer_values, learning_rate_values):
+    model = MLP_var(N_layer)
+    model.to(device)
+    criterion = nn.CrossEntropyLoss()
+    optimizer = optim.Adam(model.parameters(), lr=lr)
+
+    losses_train, losses_valid, f1_scores_train, f1_scores_valid = full_training(
+      model, criterion, optimizer, training_loader, valid_loader, epochs=epochs
+    )</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 681px;" data-name="text-704e41" data-block-id="e172832281f7d16ca90f5f0315e9de35"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><p><a href="https://towardsdatascience.com/bayesian-optimization-for-hyperparameter-tuning-how-and-why-655b0ee0b399" target="_blank">weitere Tuning Methoden</a></p></div></div>
+<div class="sl-block" data-block-type="image" style="width: 273.169px; height: 144px; left: 0px; top: 0px; min-width: 1px; min-height: 1px;" data-name="image-b79cd7" data-block-id="82d6bb86d6c792f7e05dcc0cdbe1bcd0"><div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="571" data-natural-height="301" data-lazy-loaded="" data-src="deep-learning-optimieren/5230e13624537620fa654c6b71e88ae6.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 247.391px; height: 144px; left: 1032.61px; top: 0px; min-width: 1px; min-height: 1px;" data-name="image-d3048e" data-block-id="6be973a28c4d4de50294cbf9c3215b4b"><div class="sl-block-content" style="z-index: 15;"><img class="" data-natural-width="926" data-natural-height="539" data-lazy-loaded="" data-src="deep-learning-optimieren/3a7d7d00f51b4c2188df9e85c89b566c.png"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="9c632b6b9272f84a0a46e13f784f81a5">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 154px; top: 43px;" data-name="text-fb64a9" data-block-id="5ab883d78f385639d2721f021a738a47"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h2>Einfluss auf Stabilität</h2></div></div>
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="shape" style="width: 100px; height: 100px; left: 1004px; top: 476px;" data-name="shape-4676d3" data-block-id="f537bdc9712f9a1ebc32630663418c63"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(0, 255, 0)" data-shape-stretch="true" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 100 100"><ellipse rx="50" ry="50" cx="50" cy="50" class="shape-element" fill="rgb(0, 255, 0)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 300px; height: 300px; left: 535px; top: 337.5px;" data-name="shape-7dbc2b" data-block-id="bd3e1bb4fcf83cdf012e14cad5901fc7"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 153, 0)" data-shape-stretch="true" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 300 300"><ellipse rx="150" ry="150" cx="150" cy="150" class="shape-element" fill="rgb(255, 153, 0)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 200px; height: 200px; left: 335px; top: 152px;" data-name="shape-08cae2" data-block-id="f0ff7957744c92c15d43f496d5de40dd"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(153, 0, 255)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 200 200"><ellipse rx="100" ry="100" cx="100" cy="100" class="shape-element" fill="rgb(153, 0, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 400px; height: 400px; left: 0px; top: 320px;" data-name="shape-e56891" data-block-id="206aaefb0fe68e7ba0619f74738db0dd"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(74, 134, 232)" data-shape-stretch="true" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 400 400"><ellipse rx="200" ry="200" cx="200" cy="200" class="shape-element" fill="rgb(74, 134, 232)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 200px; height: 200px; left: 823px; top: 144px;" data-name="shape-64b0b1" data-block-id="82d811dfe3db0e805eeab8e9c383fe79"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(0, 255, 255)" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 200 200"><ellipse rx="100" ry="100" cx="100" cy="100" class="shape-element" fill="rgb(0, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 629.5px; top: 462px;" data-name="math-c2bd78" data-block-id="9c2735c3f784d7813560accaef0c9d28"><div class="sl-block-content notranslate" style="z-index: 16; color: rgb(0, 0, 0); font-size: 70%; --darkreader-inline-color: #e8e6e3;" data-darkreader-inline-color=""><div class="math-input">N_{\text{Params}}</div></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 158.5px; top: 494.5px;" data-name="math-4e0e4d" data-block-id="17f2b03d9257286879a66fcc46744894"><div class="sl-block-content notranslate" style="z-index: 17; color: rgb(0, 0, 0); font-size: 70%; --darkreader-inline-color: #e8e6e3;" data-darkreader-inline-color=""><div class="math-input">N_{\text{Data}}</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 154px; left: 846px; top: 230.5px;" data-name="text-79809f" data-block-id="5a886693338613ccdf175834a9b3f670"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; color: rgb(0, 0, 0); font-size: 70%;"><p>Regularisierung</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 170px; left: 352px; top: 222px;" data-name="text-535c27" data-block-id="051532d60920a0593ba2bec7cdc6660e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19; color: rgb(0, 0, 0); font-size: 70%;">
+<p>Hyperparameter</p>
+
+<p>Tuning</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 100px; left: 1004px; top: 512.5px;" data-name="text-c74009" data-block-id="86345914d5bd16bacad126de454532d7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 20; color: rgb(0, 0, 0); font-size: 70%;"><p>Optimizer</p></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="a73dcc83e0fa570ce6af4415d52fdf32">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 154px; top: 43px;" data-name="text-fb64a9" data-block-id="388f197a08b33004b27dbea4be59db09"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h2>Aufwand</h2></div></div>
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="shape" style="width: 75px; height: 75px; left: 1016.5px; top: 488.5px;" data-name="shape-4676d3" data-block-id="c551b4076df686cd8c844c592a795e1a"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(0, 255, 0)" data-shape-stretch="true" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 75 75"><ellipse rx="37.5" ry="37.5" cx="37.5" cy="37.5" class="shape-element" fill="rgb(0, 255, 0)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 200px; height: 200px; left: 585px; top: 394.5px;" data-name="shape-7dbc2b" data-block-id="80f40ffb1444ae6b69e7623130b2746d"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(255, 153, 0)" data-shape-stretch="true" style="z-index: 13;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 200 200"><ellipse rx="100" ry="100" cx="100" cy="100" class="shape-element" fill="rgb(255, 153, 0)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 400px; height: 400px; left: 235px; top: 52px;" data-name="shape-08cae2" data-block-id="394c0adec7a6f32825381adfcc2fc7c8"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(153, 0, 255)" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 400 400"><ellipse rx="200" ry="200" cx="200" cy="200" class="shape-element" fill="rgb(153, 0, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 450px; height: 450px; left: -25px; top: 295px;" data-name="shape-e56891" data-block-id="6f140bff28f747387c5788635807eec2"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(74, 134, 232)" data-shape-stretch="true" style="z-index: 14;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 450 450"><ellipse rx="225" ry="225" cx="225" cy="225" class="shape-element" fill="rgb(74, 134, 232)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 150px; height: 150px; left: 848px; top: 169px;" data-name="shape-64b0b1" data-block-id="b977d0f10e8e60d498ef83d116262352"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgb(0, 255, 255)" data-shape-stretch="true" style="z-index: 15;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 150 150"><ellipse rx="75" ry="75" cx="75" cy="75" class="shape-element" fill="rgb(0, 255, 255)"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 629.5px; top: 462px;" data-name="math-c2bd78" data-block-id="3cf1447db6fc78324f29f67d7a298f42"><div class="sl-block-content notranslate" style="z-index: 16; color: rgb(0, 0, 0); font-size: 70%; --darkreader-inline-color: #e8e6e3;" data-darkreader-inline-color=""><div class="math-input">N_{\text{Params}}</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 167px; left: 351px; top: 222px;" data-name="text-535c27" data-block-id="58d8a9b55f992d9e72d551afa65faf12"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; color: rgb(0, 0, 0); font-size: 70%;">
+<p>Hyperparameter</p>
+
+<p>Tuning</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 100px; left: 1004px; top: 516px;" data-name="text-c74009" data-block-id="c14a9976a05139754e2a01327b32e4d0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; color: rgb(0, 0, 0); font-size: 50%;"><p>Optimizer</p></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 158.5px; top: 494.5px;" data-name="math-4e0e4d" data-block-id="d574affb7281896ac80745dd2b567273"><div class="sl-block-content notranslate" style="z-index: 19; color: rgb(0, 0, 0); font-size: 70%; --darkreader-inline-color: #e8e6e3;" data-darkreader-inline-color=""><div class="math-input">N_{\text{Data}}</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 154px; left: 846px; top: 230.5px;" data-name="text-bdff9b" data-block-id="f68dc60236c94fae6dfb2460b592cf30"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 20; color: rgb(0, 0, 0); font-size: 70%;"><p>Regularisierung</p></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="d80b52ff8f3fb111641dc645c0943d3e">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="de297470ff2c0470e0302eeaa42982e7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Optimieren</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 95px;" data-name="text-63c0f8" data-block-id="96d18518733987d9db3f0c6cfdb757b1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Hands-On: MNIST Classifier</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 238.5px;" data-name="text-9ead63" data-block-id="1eaaa82e4e19017c443131523b0f3ca1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>Bearbeiten Sie <a href="https://colab.research.google.com/drive/1l5KFanzbOldvEtnOw7SwTZHT6E0xoN7_?usp=sharing" target="_blank">dieses Notebook</a></p>
+
+<p> </p>
+
+<ul>
+	<li>Erstellen Sie einen MNIST Classifier<br>
+	mit variabler Anzahl hidden Layer<br>
+	 </li>
+	<li>Erstellen Sie einen Validationsdatensatz<br>
+	 </li>
+	<li>Führen sie ein Hyperparametertuning durch</li>
+</ul>
+
+<p> </p>
+
+<p>Die Lösung finden Sie in <a href="https://colab.research.google.com/drive/1NAD7Pbz6mRqOH03juG9qppM7dPuOW28T?usp=sharing" target="_blank">diesem Notebook</a></p>
+</div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":3443625,"slug":"deep-learning-optimieren","title":"Deep Learning Grundlagen - Optimieren","description":"","width":1280,"height":720,"margin":0.05,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/8f9efef415002a5ef64ac1ea34be4230/thumb.jpg?1755205904","view_count":0,"user":{"id":2458893,"username":"stefanhackstein","name":"Stefan Hackstein","description":null,"thumbnail_url":"https://lh3.googleusercontent.com/a/AAcHTteP1enz_27e7qvXw7hJWWWam3Nr4u8A0lNPTfK9NiXPSA=s96-c","account_type":"lite","team_id":null,"settings":{"id":57052205,"present_controls":false,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"black-blue","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":19,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1755205951650,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"language":"en","notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 1280,
+				height: 720,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				scrollActivationWidth: null,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+
+	</body>
+</html>

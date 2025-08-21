@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="manifest" href='data:application/manifest+json,{"display": "standalone", "name": "Deep Learning Grundlagen - Regularisieren"}' />
+		<title>Deep Learning Grundlagen - Regularisieren</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-black-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-auto-animate-easing="linear" data-background-image="deep-learning-regularisieren/6ae16e5d6f5c4089a07aedfc3f398da8.png" data-background-size="contain" data-auto-animate="" data-id="df9fc0d2687d99e5efe22f13abbaf241">
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 340.5px;" data-name="text-abdcb7" data-block-id="2e92e721bb8973bd6c83bf9aa1f7590e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><p>Text</p></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="03a9dcb9a32b2ce94ffaf15dc5b9a8aa">
+
+
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 681px;" data-name="text-3f636c" data-block-id="b08834b0aaab1fc5512c090247a3b95c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><p><a href="https://towardsdatascience.com/everything-you-need-to-know-about-regularization-64734f240622" target="_blank">mehr zum Thema</a></p></div></div>
+<div class="sl-block" data-block-type="image" style="width: 719.999px; height: 467.576px; left: 0px; top: 204.212px; min-width: 1px; min-height: 1px;" data-name="image-5db0c1" data-block-id="01b34a4ae364302c8152bbbd6a3143f3"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="850" data-natural-height="552" data-lazy-loaded="" data-src="deep-learning-regularisieren/30935f558fc6582bf67257f4734d0cde.png"></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 466.201px; top: 469.75px;" data-name="math-c2bd78" data-block-id="36f0b979ef51f6bf2f1885e3cc29553f"><div class="sl-block-content notranslate" style="z-index: 12; color: rgb(0, 0, 0); font-size: 70%; --darkreader-inline-color: #e8e6e3;" data-darkreader-inline-color=""><div class="math-input">N_{\text{Data}} &lt; N_{\text{Params}}</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 548px; left: 732px; top: 270.5px;" data-name="text-0db8ab" data-block-id="a3b4a6bd9a4dbcd9971ca2344e1dc629"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p style="text-align:left">Tiefes NN kann jede Funktion fitten<br>
+    -&gt; overfit leicht<br>
+    -&gt; Generalisierung schwer<br>
+ </p>
+
+<p style="text-align:left">Regularisierung reduziert Varianz,<br>
+ohne Bias zu erhöhen</p>
+
+<p style="text-align:left"> </p>
+
+<p style="text-align:left">-&gt; Modell lernt "einfach" &amp; robust sein</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 107px;" data-name="text-fb64a9" data-block-id="4286f3f9fa3bb0f5c440fcb0cd5bff84"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;"><h2>Wieso Regularisieren?</h2></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="7027095b76656be44cc38112ffa4c4e1">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 107px;" data-name="text-fb64a9" data-block-id="ee895675f30533ef3216a2bd7c92dd17"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Regularisieren</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 573.799px; left: 706.201px; top: 282px;" data-name="text-0457bf" data-block-id="99d5661422ae853441e941b2e0a0f8b8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>reduziert Overfitting<br>
+	(essentiell bei grossen NN)<br>
+	 </li>
+	<li>verbessert Generalisierung<br>
+	 </li>
+	<li>robustere Models &amp; Training<br>
+	 </li>
+	<li>Balance: Komplexität - Generalisierung</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 681px;" data-name="text-3f636c" data-block-id="875c414950da73e505ac4000e43e7c65"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><p><a href="https://towardsdatascience.com/everything-you-need-to-know-about-regularization-64734f240622" target="_blank">mehr zum Thema</a></p></div></div>
+<div class="sl-block" data-block-type="image" style="width: 719.999px; height: 467.576px; left: 0px; top: 204.212px; min-width: 1px; min-height: 1px;" data-name="image-5db0c1" data-block-id="161f53b82270ae047a0f8caa257f833f"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="850" data-natural-height="552" data-lazy-loaded="" data-src="deep-learning-regularisieren/30935f558fc6582bf67257f4734d0cde.png"></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 466.201px; top: 469.75px;" data-name="math-c2bd78" data-block-id="bfbe3a80e342354d9852cfc420a48c90"><div class="sl-block-content notranslate" style="z-index: 14; color: rgb(0, 0, 0); font-size: 70%; --darkreader-inline-color: #e8e6e3;" data-darkreader-inline-color=""><div class="math-input">N_{\text{Data}} &lt; N_{\text{Params}}</div></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="c235c7f93af175646ad940223df88349">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="7eaed454de9d0f1c4d2a005b28ddf170"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Regularisieren</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 651px; left: 160px; top: 84px;" data-name="text-adf4aa" data-block-id="d91daa5545b89080722bd9f47bab6f61"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>L1 (Lasso):
+	<ul>
+		<li>kleine Parameter</li>
+		<li>Gewichte -&gt; 0  =&gt; Feature Auswahl</li>
+	</ul>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 410.25px; top: 84px;" data-name="math-b96b7e" data-block-id="5fb564b4cff9a5d29e73369ca70c73bd"><div class="sl-block-content notranslate" style="z-index: 12; font-size: 70%;"><div class="math-input">\text{Loss} + \beta \sum_{i=1}^{n} |\theta_i|</div></div></div>
+<div class="sl-block" data-block-type="code" style="width: 837px; height: 37.5px; left: 177.5px; top: 213px;" data-name="code-dc71be" data-block-id="d582f52e5c244d8c634ac1965aac51d3"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 13;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">l1_regularization_loss = torch.norm(model.parameters(), 1)</code></pre></div></div>
+</section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="638157cbbeb57e53f8751bbfa7d17140">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="d40d531d1bfba9d28fa17f57498d3dfb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Regularisieren</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 671px; left: 160px; top: 84px;" data-name="text-adf4aa" data-block-id="ac68f380ba3742223de30b5b12570029"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+<li>L1 (Lasso):<ul>
+<li>kleine Parameter</li>
+<li>Gewichte -&gt; 0  =&gt; Feature Auswahl<br><br>
+</li>
+</ul>
+</li>
+<li>L2 (Ridge):<ul>
+<li>kleine, ausgeglichene Parameter</li>
+<li>meistgebrauchte regularisation</li>
+</ul>
+</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 419px; top: 84px;" data-name="math-b96b7e" data-block-id="a060591a015e1be14c47c922be6113d7"><div class="sl-block-content notranslate" style="z-index: 12; font-size: 70%;"><div class="math-input">\text{Loss} + \beta \sum_{i=1}^{n} |\theta_i|</div></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 419px; top: 250.5px;" data-name="math-fffc57" data-block-id="b404467a0a48810cd579b429c035fe21"><div class="sl-block-content notranslate" style="z-index: 13; font-size: 70%;"><div class="math-input">\text{Loss} + \beta \sum_{i=1}^{n} \theta_i^2</div></div></div>
+<div class="sl-block" data-block-type="code" style="width: 837px; height: 37.5px; left: 177.5px; top: 213px;" data-name="code-dc71be" data-block-id="c417f4f73357d2f890af059fb1f1764a"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 14;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">l1_regularization_loss = torch.norm(model.parameters(), 1)</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 942.5px; height: 37.5px; left: 177.5px; top: 387px;" data-name="code-abc207" data-block-id="157e30b4acb3cd06310e0ba94e5e9d3b"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 15;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=beta)
+</code></pre></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="9a1fcf8482fdbf5d7e307157b3f74ea3">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="e036eb59e7ea29d85a7f4858f64e5070"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Regularisieren</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 675px; left: 160px; top: 86px;" data-name="text-adf4aa" data-block-id="4f4d0f856e66d56ca298f044044d1847"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>L1 (Lasso):
+	<ul>
+		<li>kleine Parameter</li>
+		<li>Gewichte -&gt; 0  =&gt; Feature Auswahl<br>
+		 </li>
+	</ul>
+	</li>
+	<li>L2 (Ridge):
+	<ul>
+		<li>kleine, ausgeglichene Parameter</li>
+		<li>meistgebrauchte regularisation<br>
+		 </li>
+	</ul>
+	</li>
+	<li>Dropout: setzt zufällig Neuronen auf 0
+	<ul>
+		<li>Modell redundant &amp; robust</li>
+	</ul>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 419px; top: 84px;" data-name="math-b96b7e" data-block-id="6916d2f59733598ae51724cf77fcdd4a"><div class="sl-block-content notranslate" style="z-index: 12; font-size: 70%;"><div class="math-input">\text{Loss} + \beta \sum_{i=1}^{n} |\theta_i|</div></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 419px; top: 250.5px;" data-name="math-fffc57" data-block-id="44c6816379080073109b5a37f3de8795"><div class="sl-block-content notranslate" style="z-index: 13; font-size: 70%;"><div class="math-input">\text{Loss} + \beta \sum_{i=1}^{n} \theta_i^2</div></div></div>
+<div class="sl-block" data-block-type="code" style="width: 837px; height: 37.5px; left: 177.5px; top: 213px;" data-name="code-dc71be" data-block-id="ee769e8914932780619b374f45974b19"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 14;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">l1_regularization_loss = torch.norm(model.parameters(), 1)</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 942.5px; height: 37.5px; left: 177.5px; top: 386.5px;" data-name="code-abc207" data-block-id="7430e37ec16a9b1785c369d417a0c23b"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 15;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=beta)
+</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 556px; height: 36px; left: 177.5px; top: 521px;" data-name="code-90b07c" data-block-id="fb809775a66cdf5b1491e8690b1bf431"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 16;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">nn.Dropout(0.2)  # 0.2 of neurons set to 0</code></pre></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="3a58a8af9697f22454c167ac1646fde6">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="dbe3670a9de509d6df075f4e6de76666"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Regularisieren</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 741px; left: 160px; top: 84px;" data-name="text-adf4aa" data-block-id="f98fb9423a6be1bccbee88621dbec280"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>L1 (Lasso):
+	<ul>
+		<li>kleine Parameter</li>
+		<li>Gewichte -&gt; 0  =&gt; Feature Auswahl<br>
+		 </li>
+	</ul>
+	</li>
+	<li>L2 (Ridge):
+	<ul>
+		<li>kleine, ausgeglichene Parameter</li>
+		<li>meistgebrauchte regularisation<br>
+		 </li>
+	</ul>
+	</li>
+	<li>Dropout: setzt zufällig Neuronen auf 0
+	<ul>
+		<li>Modell redundant &amp; robust<br>
+		 </li>
+	</ul>
+	</li>
+	<li>Batch Normalization: Normalisiert Layer Input
+	<ul>
+		<li>Reduziert Abhängikeit von vorigen Layern</li>
+	</ul>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 419px; top: 84px;" data-name="math-b96b7e" data-block-id="5b0c21ce35db765d228f3375e3bc7a4b"><div class="sl-block-content notranslate" style="z-index: 12; font-size: 70%;"><div class="math-input">\text{Loss} + \beta \sum_{i=1}^{n} |\theta_i|</div></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 419px; top: 250.5px;" data-name="math-fffc57" data-block-id="9dd26e63f8805d6dbfe0239c0b0bb4a4"><div class="sl-block-content notranslate" style="z-index: 13; font-size: 70%;"><div class="math-input">\text{Loss} + \beta \sum_{i=1}^{n} \theta_i^2</div></div></div>
+<div class="sl-block" data-block-type="code" style="width: 837px; height: 37.5px; left: 177.5px; top: 213px;" data-name="code-dc71be" data-block-id="92085a47cdb3a971430f3493e047a5d3"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 14;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">l1_regularization_loss = torch.norm(model.parameters(), 1)</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 942.5px; height: 37.5px; left: 177.5px; top: 386.5px;" data-name="code-abc207" data-block-id="25b4c20c9c6c9115cfe09595269a1805"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 15;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=beta)
+</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 556px; height: 36px; left: 177.5px; top: 521px;" data-name="code-90b07c" data-block-id="85831686d83a2cccc5d0582dbda27ca1"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 16;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">nn.Dropout(0.2)  # 0.2 of neurons set to 0</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 35.5px; left: 177.5px; top: 657px;" data-name="code-c4886e" data-block-id="487fe18d97c5fbe881aab69400bfadf1"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 17;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">nn.BatchNorm1d()</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 177.5px; left: 0px; top: 681px;" data-name="text-6913c3" data-block-id="e4735bc3ef24565dc5d01e14e5af203b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;"><p>PyTorch</p></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="8cf2842c4aefd1414c06cffa19a9e8d1">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="6010715d69e1429c38ba0e857a2e8d14"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Regularisieren</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 741px; left: 160px; top: 84px;" data-name="text-adf4aa" data-block-id="be363b18510a75d3b0ea60f3b23f7704"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>L1 (Lasso):
+	<ul>
+		<li>kleine Parameter</li>
+		<li>Gewichte -&gt; 0  =&gt; Feature Auswahl<br>
+		 </li>
+	</ul>
+	</li>
+	<li>L2 (Ridge):
+	<ul>
+		<li>kleine, ausgeglichene Parameter</li>
+		<li>meistgebrauchte regularisation<br>
+		 </li>
+	</ul>
+	</li>
+	<li>Dropout: setzt zufällig Neuronen auf 0
+	<ul>
+		<li>Modell redundant &amp; robust<br>
+		 </li>
+	</ul>
+	</li>
+	<li>Batch Normalization: Normalisiert Layer Input
+	<ul>
+		<li>Reduziert Abhängikeit von vorigen Layern</li>
+	</ul>
+	</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 419px; top: 84px;" data-name="math-b96b7e" data-block-id="54d6bb75c01198230be53fe708a2b5fe"><div class="sl-block-content notranslate" style="z-index: 12; font-size: 70%;"><div class="math-input">\text{Loss} + \beta \sum_{i=1}^{n} |\theta_i|</div></div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 419px; top: 250.5px;" data-name="math-fffc57" data-block-id="e3023d2497610840f14a002054cbe5e7"><div class="sl-block-content notranslate" style="z-index: 13; font-size: 70%;"><div class="math-input">\text{Loss} + \beta \sum_{i=1}^{n} \theta_i^2</div></div></div>
+<div class="sl-block" data-block-type="code" style="width: 1265px; height: 37.5px; left: 7.5px; top: 384.5px;" data-name="code-abc207" data-block-id="d4c64fb97f862bdfad989805b3ecc944"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 14;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">Dense(N, kernel_regularizer=keras.regularizers.l2(beta), bias_regularizer=keras.regularizers.l2(beta))
+</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 710px; height: 37px; left: 177.5px; top: 521px;" data-name="code-90b07c" data-block-id="8e62c2b8c0363520903776322d02626d"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 15;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">tf.keras.layers.Dropout(0.2)  # 0.2 of neurons set to 0</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 38.5px; left: 177.5px; top: 657px;" data-name="code-c4886e" data-block-id="f7d9ff0885fa888120f6a04dc1095c14"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 16;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">tf.keras.layers.BatchNormalization(),</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 1265px; height: 37.5px; left: 7.5px; top: 216.25px;" data-name="code-65c5f5" data-block-id="434792b4a32f0ce6d0934840c003ce85"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 17;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers="">Dense(N, kernel_regularizer=keras.regularizers.l1(beta), bias_regularizer=keras.regularizers.l1(beta))
+</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 177.5px; left: 0px; top: 681px;" data-name="text-6913c3" data-block-id="bb6186d9f2dac9c0002511f14f23da1f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;"><p>TensorFlow</p></div></div></section><section data-auto-animate="" data-id="742ff5df8712e437c8d8348b7e3020ef"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 10px;" data-name="text-cd7789" data-block-id="437c2b52499370f13be06a28b60f5094"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Data Augmentation</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 1280px; left: 0px; top: 84px;" data-name="text-24a066" data-block-id="bcb6bfc4d8820960b0048f628d1cd2ee"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 2.6;" data-has-line-height=""><ul>
+	<li>Mehr Daten -&gt; grössere Modelle -&gt; komplexere Aufgaben</li>
+</ul></div></div></section><section data-auto-animate="" data-id="190463d40a532b17bb329862223348f5"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 10px;" data-name="text-cd7789" data-block-id="d9635d60d644ff8ae4f759f5d69f117a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Data Augmentation</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 1280px; left: 0px; top: 84px;" data-name="text-24a066" data-block-id="0809850ae3be626de97625f7a4060c0e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 2.6;" data-has-line-height=""><ul>
+	<li>Mehr Daten -&gt; grössere Modelle -&gt; komplexere Aufgaben</li>
+	<li>Mehr Daten durch Datenbearbeitung</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="image" style="width: 840px; height: 504px; left: 220px; top: 216px; min-width: 1px; min-height: 1px;" data-name="image-3f072e" data-block-id="11bd8b5c8ea27ebf04f5399540a6e265"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="1000" data-natural-height="600" data-lazy-loaded="" data-src="deep-learning-regularisieren/716f97c633c213991250e69fcb1f8c35.png"></div></div></section><section data-auto-animate="" data-id="b1c5bc5695bab2631153f70a1ed0ff30"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 10px;" data-name="text-cd7789" data-block-id="6a27665e0318a3d4c11067a08debb798"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h2>Data Augmentation</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 1280px; left: 0px; top: 84px;" data-name="text-24a066" data-block-id="67af04d43d15f247d37db4677c56db65"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 2.6;" data-has-line-height=""><ul>
+	<li>Mehr Daten -&gt; grössere Modelle -&gt; komplexere Aufgaben</li>
+	<li>Mehr Daten durch Datenbearbeitung</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="image" style="width: 506.667px; height: 304px; left: 0px; top: 216px; min-width: 1px; min-height: 1px;" data-name="image-3f072e" data-block-id="fe83a23668cec6f68029a313a96c4ca4"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="1000" data-natural-height="600" data-lazy-loaded="" data-src="deep-learning-regularisieren/716f97c633c213991250e69fcb1f8c35.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 729.813px; height: 504px; left: 550.187px; top: 216px;" data-name="image-fbc169" data-block-id="a991f6623b9571a0acc2a13513034785"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="850" data-natural-height="587" data-src="deep-learning-regularisieren/597882534acdef2ef6c27e337c4aef0f.png"></div></div></section><section data-auto-animate="" data-id="a17abbd920fb4d6f349f7615b21704f4"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 10px;" data-name="text-cd7789" data-block-id="cf0a37371d4c1da57976ca37b24b61a0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h2>Data Augmentation</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 1280px; left: 0px; top: 84px;" data-name="text-24a066" data-block-id="b5c6051e5db85ffbd10cda821604bf75"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 2.6;" data-has-line-height=""><ul>
+	<li>Mehr Daten -&gt; grössere Modelle -&gt; komplexere Aufgaben</li>
+	<li>Mehr Daten durch Datenbearbeitung</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="image" style="width: 506.667px; height: 304px; left: 0px; top: 216px; min-width: 1px; min-height: 1px;" data-name="image-3f072e" data-block-id="de6821c5a715f087f95e5ae2a5974494"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="1000" data-natural-height="600" data-lazy-loaded="" data-src="deep-learning-regularisieren/716f97c633c213991250e69fcb1f8c35.png"></div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 700.13px; height: 309.866px; left: 289.935px; top: 410.134px; min-width: 1px; min-height: 1px;" data-name="image-444bfa" data-block-id="54d2cae021a4a695d763574567240bfa"><div class="sl-block-content" style="z-index: 15;"><img class="" data-natural-width="1254" data-natural-height="555" data-lazy-loaded="" data-src="deep-learning-regularisieren/2710a4ec18230024e274300e96c967b9"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 440.204px; height: 304px; left: 839.796px; top: 216px; min-width: 1px; min-height: 1px;" data-name="image-fbc169" data-block-id="fba3b5222806af99493f2a7a304b890d"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="850" data-natural-height="587" data-src="deep-learning-regularisieren/597882534acdef2ef6c27e337c4aef0f.png"></div></div></section><section data-auto-animate="" data-id="5c8184020f5fb4fd5d5b3b075aedd336"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 10px;" data-name="text-cd7789" data-block-id="1f69da1ee3634cdbd04fd6b4c7cc3a38"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h2>Data Augmentation</h2></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 1280px; left: 0px; top: 84px;" data-name="text-24a066" data-block-id="b944ff8c51b1be1363935caa2d63c25d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 2.6;" data-has-line-height=""><ul>
+	<li>Mehr Daten -&gt; grössere Modelle -&gt; komplexere Aufgaben</li>
+	<li>Mehr Daten durch Datenbearbeitung</li>
+	<li>Verbessert Generalisierung</li>
+	<li>Reduziert Overfitting</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="image" style="width: 423.445px; height: 254.067px; left: -20.889px; top: 393.933px; min-width: 1px; min-height: 1px;" data-name="image-3f072e" data-block-id="965d3a7cca30514776ac89a83592e216"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="1000" data-natural-height="600" data-lazy-loaded="" data-src="deep-learning-regularisieren/716f97c633c213991250e69fcb1f8c35.png"></div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 574.054px; height: 254.067px; left: 385.638px; top: 393.933px; min-width: 1px; min-height: 1px;" data-name="image-444bfa" data-block-id="c6e1898279a327d62219033589888ce6"><div class="sl-block-content" style="z-index: 15;"><img class="" data-natural-width="1254" data-natural-height="555" data-lazy-loaded="" data-src="deep-learning-regularisieren/2710a4ec18230024e274300e96c967b9"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 670.5px;" data-name="text-742513" data-block-id="5d7ad1b651df3bddc684cfe064247f6f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;"><p><a href="https://www.youtube.com/watch?v=nAZdK4codMk" target="_blank">Mehr zu Image Augmentation</a></p></div></div>
+<div class="sl-block" data-block-type="image" style="width: 367.899px; height: 254.067px; left: 912.101px; top: 393.933px; min-width: 1px; min-height: 1px;" data-name="image-fbc169" data-block-id="6cb9fb78ce38df6e55bdf14d313789f2"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="850" data-natural-height="587" data-src="deep-learning-regularisieren/597882534acdef2ef6c27e337c4aef0f.png"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="35b385f0edb097cfd1b73c01a6129672">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="d7c6a1be4722c13073fd69cc7df23287"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Regularisieren</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 95px;" data-name="text-63c0f8" data-block-id="70809689ce771465f18043afe95b9778"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Hands-On: MNIST Classifier</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 238.5px;" data-name="text-9ead63" data-block-id="1f95d615f955f8298d9c3aa444404b6d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>Bearbeiten Sie <a href="https://colab.research.google.com/drive/1-0L_0c7GrMJbZ_roCRh-2XTMR37tQ_GF?usp=sharing" target="_blank">dieses Notebook</a></p>
+
+<p> </p>
+
+<ul>
+	<li>Modifizieren Sie den MNIST Classifier<br>
+	mit zwei Regularisierungen: Dropout &amp; L2<br>
+	 </li>
+	<li>Vergleichen Sie die Performance<br>
+	mit und ohne Regularisierung</li>
+</ul>
+
+<p> </p>
+
+<p>Die Lösung finden Sie in <a href="https://colab.research.google.com/drive/1diZVBQBAlVllkhouprD7L7rkIp9Yd10I?usp=sharing" target="_blank">diesem Notebook</a></p>
+</div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":3443622,"slug":"deep-learning-regularisieren","title":"Deep Learning Grundlagen - Regularisieren","description":"","width":1280,"height":720,"margin":0.05,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/745351f4719dd14c35dbeb29b8225103/thumb.jpg?1755096161","view_count":0,"user":{"id":2458893,"username":"stefanhackstein","name":"Stefan Hackstein","description":null,"thumbnail_url":"https://lh3.googleusercontent.com/a/AAcHTteP1enz_27e7qvXw7hJWWWam3Nr4u8A0lNPTfK9NiXPSA=s96-c","account_type":"lite","team_id":null,"settings":{"id":57052205,"present_controls":false,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"black-blue","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":14,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1755204519599,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"language":"en","notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 1280,
+				height: 720,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				scrollActivationWidth: null,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+
+	</body>
+</html>

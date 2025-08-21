@@ -1,0 +1,22 @@
+---
+title: "3 - Evaluieren"
+---
+
+# Hands-On: MNIST Classifier
+
+Bearbeiten Sie [dieses Notebook](https://colab.research.google.com/drive/1a9Cg-uKiQjB5s8VKvbbRTHnPw8gihYpn?usp=sharing).
+
+Bearbeiten Sie folgende Aufgaben:
+
+::: {.pro-tip collapse="false"}
+## Aufgaben
+
+- Berechnen Sie die Konfusionsmatrix sowie den F1 Score auf einem beliebigen Datensatz
+- Berechnen Sie diese explizit für ein untrainiertes Modell auf dem Testdatensatz
+:::
+
+::: {.callout-note collapse="true"}
+## Lösung
+
+Die Lösung finden Sie in [diesem Notebook](https://colab.research.google.com/drive/11teJBC7gINizTUCz0CAtPHMOZza5OOJN?usp=sharing)
+:::

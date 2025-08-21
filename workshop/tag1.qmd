@@ -1,0 +1,36 @@
+---
+title: "Tag 1"
+---
+
+| {{< bi collection >}} Thema | {{< bi clock >}} Dauer | Start | 
+|-------|--------|
+| [Einstieg](vorstellung.qmd) | 15 min | 8:50 | 
+| [Input 0 - Was ist KI?](/slides/0a-was-ist-ki/index.html) | 15 min | 9:05 |
+| [Input 0a - Übersicht](/slides/0-overview/index.html) | 15 min | 9:20 |
+|
+| **Pause** | 20 min | 9:35 |
+|
+| [Input 1 - Daten Erkunden](/slides/1-daten-erkunden/index.html) | 15 min | 9:55 |
+| [Exercise 1: Daten Erkunden](/exercises/1-daten_erkunden.qmd) | 35 min | 10:10 |
+|
+| **Pause** | 20 min | 10:45 |
+|
+| Besprechung Exercise 1 | 10 min | 11:05 |
+| [Input 2 - Modell & Training](/slides/2-training/index.html) | 30 min | 11:15 |
+|
+| **Mittagspause** | 105 min | 11:45 |
+|
+| Fortsetzung Input 2 | 20 min | 13:30 |
+| [Exercise 2: Modell & Training](/exercises/2-training.qmd) | 30 min | 13:50 |
+|
+| **Pause** | 20 min | 14:20 |
+|
+| Besprechung Exercise 2 | 10 min | 14:40 |
+| [Input 3 - Evaluieren](/slides/3-evaluieren/index.html) | 10 min | 14:50 |
+| [Exercise 3: Evaluieren](/exercises/3-evaluieren.qmd) | 30 min | 15:00 |
+|
+| **Pause** | 20 min | 15:30 |
+|
+| Besprechung Exercise 3 | 10 min | 15:50 |
+| Open Q&A | 30 min | 16:00 |
+| Ende | | 16:30 |

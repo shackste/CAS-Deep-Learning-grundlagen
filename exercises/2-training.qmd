@@ -1,0 +1,23 @@
+---
+title: "2 - Model & Trainingsloop"
+---
+
+# Hands-On: MNIST Classifier
+
+Bearbeiten Sie [dieses Notebook](https://colab.research.google.com/drive/1GLso7wqttpFdk7VkHiamI8r7O4MvXvsb?usp=sharing).
+
+Bearbeiten Sie folgende Aufgaben:
+
+::: {.pro-tip collapse="false"}
+## Aufgaben
+
+- Erstellen Sie einen MNIST Classifier
+- Definieren Sie die Trainingsloop
+- Testen Sie die Trainingsloop über zwei Epochen
+:::
+
+::: {.callout-note collapse="true"}
+## Lösung
+
+Die Lösung finden Sie in [diesem Notebook](https://colab.research.google.com/drive/1PtMcVfqDN0HTRuSnEyPOvOP4ahT6NcVQ?usp=sharing)
+:::

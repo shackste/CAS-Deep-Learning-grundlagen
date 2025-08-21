@@ -1,0 +1,23 @@
+---
+title: "4 - Overfitten"
+---
+
+# Hands-On: MNIST Classifier
+
+Bearbeiten Sie [dieses Notebook](https://colab.research.google.com/drive/1cHGKQAEkNDUUbG8ZGB6MXZsorhJ8-X40?usp=sharing).
+
+Bearbeiten Sie folgende Aufgaben:
+
+::: {.pro-tip collapse="false"}
+## Aufgaben
+
+- Wählen Sie eine zufällige Batch zum Overfitten
+- Trainieren Sie auf dieser Batch für 100 Epochen
+- Evaluieren Sie das Modell an dieser Batch und den Testdaten
+:::
+
+::: {.callout-note collapse="true"}
+## Lösung
+
+Die Lösung finden Sie in [diesem Notebook](https://colab.research.google.com/drive/1zsvWzQa4wZdmoJz6naD471jHyIiOcnpI?usp=sharing)
+:::

@@ -1,0 +1,29 @@
+---
+title: "Tag 2"
+---
+
+| {{< bi collection >}} Thema | {{< bi clock >}} Dauer | Start | 
+|-------|--------|
+| [Input 4 - Overfitten](/slides/4-overfitting/index.html) | 10 min | 8:50 |
+| [Exercise 4: Overfitten](/exercises/4-overfitting.qmd) | 40 min | 9:00 |
+|
+| **Pause** | 20 min | 9:40 |
+|
+| Besprechung Exercise 4 | 10 min | 10:00 |
+| [Input 5 - Regularisieren](/slides/5-regularisieren/index.html) | 10 min | 10:10 |
+| [Exercise 5: Regularisieren](/exercises/5-regularisieren.qmd) | 60 min | 10:20 |
+|
+| **Pause** | 20 min | 11:20 |
+|
+| Besprechung Exercise 5 | 10 min | 11:40 |
+|
+| **Mittagspause** | 100 min | 11:50 |
+|
+| [Input 6 - Optimieren](/slides/6-optimieren/index.html) | 15 min | 13:30 |
+| [Exercise 6: Optimieren](/exercises/6-optimieren.qmd) | 90 min | 13:45 |
+|
+| **Pause** | 20 min | 15:15 |
+|
+| Besprechung Exercise 6 | 25 min | 15:35 |
+| Open Q&A | 30 min | 16:00 |
+| Ende | | 16:30 |
