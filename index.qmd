@@ -10,7 +10,7 @@ about:
     - icon: inbox-fill
       text: Email
       href: mailto:stefan.hackstein@fhnw.ch    
-    - icon: assets/linkedin.png
+    - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/stefan-hackstein-a914b81a5/
 ---

@@ -17,7 +17,7 @@ project:
 
 website:
   title: "CAS Deep Learning - Grundlagen"
-#  site-url: https://link-to-your-site.com
+  site-url: https://shackste.github.io/CAS-Deep-Learning-grundlagen/
   favicon: /assets/robot.png
   open-graph: true
   search:
@@ -28,6 +28,11 @@ website:
   page-navigation: true
   back-to-top-navigation: true
 
+  body-footer: |
+   <br><br><br><br>
+   Content licensed under [CC BY](https://creativecommons.org/licenses/by/4.0/), 
+   Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/"
+ 
   navbar:
     background: light
     left:
@@ -176,10 +181,6 @@ website:
           text: Input 9 - Zusammenfassung
 
 
-page-footer:
-  right:
-    - icon: github
-      href: https://github.com/shackste/CAS-Deep-Learning-grundlagen.git
 
 format:
   html:
