@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="manifest" href='data:application/manifest+json,{"display": "standalone", "name": " Deep Learning Grundlagen - Overfitting"}' />
+		<title> Deep Learning Grundlagen - Overfitting</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-black-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-auto-animate-easing="linear" data-background-image="deep-learning-overfitting/92fdceac4301b1facb37634182a42510.png" data-background-size="contain" data-auto-animate="" data-id="0d38e8686a3aac48e57f1a6ee6c35def">
+
+
+
+
+
+
+
+
+
+
+</section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="cfca139f5056732a1f38f4ee65bb175a">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="7eff7d21b679e9e2f2009f76de58bbff"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Overfitting</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 105.5px;" data-name="text-e0ab7b" data-block-id="2ea900f51f0c9878e287f1e6af17ba3b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><ul>
+	<li>zu stark an <span style="color: rgb(255, 0, 0); --darkreader-inline-color: #ff1a1a;" data-darkreader-inline-color="">Trainingsdaten </span>angepasst</li>
+	<li>schlechte verallgemeinerung auf <span style="color: rgb(0, 255, 0); --darkreader-inline-color: #1aff1a;" data-darkreader-inline-color="">Testdaten</span>
+</li>
+	<li>Model zu komplex / zu lange trainiert</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="image" style="width: 756.548px; height: 432px; left: 523.452px; top: 288px; min-width: 1px; min-height: 1px;" data-name="image-d031a5" data-block-id="d54a5f4cc095b17dc1b555cc50c73e39"><div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="690" data-natural-height="394" data-lazy-loaded="" data-src="deep-learning-overfitting/ed639f828e45edc86edde937fee6823a.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 537.816px; height: 432px; left: 0px; top: 288px; min-width: 1px; min-height: 1px;" data-name="image-9cd674" data-block-id="e7fa198445e6e72fb257af81c7d9da71"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="853" data-natural-height="480" data-lazy-loaded="" data-crop-x="0.133333" data-crop-y="0.054321" data-crop-width="0.6625" data-crop-height="0.945679" style="left: -108px; top: -25px; width: 812px; height: 457px;" data-src="deep-learning-overfitting/d9c7ed3deb554c88943cbdf5baa8a8f1.gif"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="44e8180c1e698f84d932654138940e79">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="97696049e06a72c71b93291dcb565ead"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h2>Overfitting</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 100.5px;" data-name="text-e0ab7b" data-block-id="3304761ea624d4e99df47378a0c683a4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><ul>
+	<li>zu stark an <span style="color:#ff0000">Trainingsdaten </span>angepasst</li>
+	<li>schlechte verallgemeinerung auf <span style="color:#00ff00">Testdaten</span>
+</li>
+	<li>Schlecht regularsiert / zu wenig Parameter</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="image" style="width: 732.201px; height: 475.5px; left: 273.899px; top: 234.5px;" data-name="image-b89002" data-block-id="85b827b2d6ff44d14fbb8fc3b38f5fc2"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="850" data-natural-height="552" data-lazy-loaded="" data-src="deep-learning-overfitting/30935f558fc6582bf67257f4734d0cde.png"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="1f6d5542037cf5cf8c0cae4c47ba8acd">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="6c99d532aa992c20870f8285ebae7a03"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><h2>Overfitting</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 100.5px;" data-name="text-e0ab7b" data-block-id="656b62620f01e5dc42f61bd4aa9707c7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;"><ul>
+	<li>zu stark an <span style="color:#ff0000">Trainingsdaten </span>angepasst</li>
+	<li>schlechte verallgemeinerung auf <span style="color:#00ff00">Testdaten</span>
+</li>
+	<li>Schlecht regularsiert / zu wenig Parameter</li>
+</ul></div></div>
+
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 740.1px; top: 504px;" data-name="math-c2bd78" data-block-id="3676db7dc1aa5933a779516137ed0459"><div class="sl-block-content notranslate" style="z-index: 13; color: rgb(0, 0, 0); font-size: 70%; --darkreader-inline-color: #e8e6e3;" data-darkreader-inline-color=""><div class="math-input">N_{\text{Data}} &lt; N_{\text{Params}}</div></div></div>
+<div class="sl-block" data-block-type="image" style="width: 732.201px; height: 475.5px; left: 273.899px; top: 234.5px; min-width: 1px; min-height: 1px;" data-name="image-b89002" data-block-id="268eed52b4e793726c873e0f82c2caf8"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="850" data-natural-height="552" data-src="deep-learning-overfitting/30935f558fc6582bf67257f4734d0cde.png"></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="23867a809b86c3e7d10d8ae9f3b4a273">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="d04c3a6e35f9c94b94a04abae08a72ba"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Gezielt Overfitten</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 106.5px;" data-name="text-e0ab7b" data-block-id="ec0b39c536b3b680970770be67f892f1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 1.95;" data-has-line-height="">
+<p>Ist das Modell geeignet, Muster zu erkennen?</p>
+
+<ul>
+	<li>overfitten auf einer batch (sanity check)</li>
+	<li>catch bugs fast</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 747px; height: 274px; left: 266.5px; top: 343.5px;" data-name="code-09182b" data-block-id="058343b98eaa6636e5043ef74e3a780e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre class="python" style="font-size: 20px; line-height: 24px;"><code data-line-numbers=""># Get one batch from the training_loader
+images, labels = next(iter(training_loader))
+
+# alternativ:
+for images, labels in training_loader:
+  break
+
+# Train the model on the batch for 100 iterations
+for _ in range(100):
+    train(model, criterion, optimizer, [(images, labels)])
+</code></pre></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="6e688e1b03c3b924ae65dc3d95db5874">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 10px;" data-name="text-fb64a9" data-block-id="9e648512dee489ee0590243d9fdb9186"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Gezielt Overfitten</h2></div></div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 106.5px;" data-name="text-e0ab7b" data-block-id="5f15a2f405356765908e5a83f0e75094"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 1.95;" data-has-line-height="">
+<p>Ist das Modell geeignet, Muster zu erkennen?</p>
+
+<ul>
+	<li>overfitten auf einer batch (sanity check)</li>
+	<li>catch bugs fast</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 303.5px;" data-name="text-0a1236" data-block-id="33aab9574ef380050290a5152aa11cb4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 2.6;" data-has-line-height=""><ul>
+	<li>Loss steigt -&gt; hohe learning rate, +/- vertauscht</li>
+	<li>Loss explodiert -&gt; hohe lr, numerisches problem</li>
+	<li>Loss oszilliert -&gt; hohe lr, data / label fehlerhaft geladen</li>
+	<li>Loss plateau -&gt; tiefe lr, backprob error, falscher Input in Loss</li>
+</ul></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 681px;" data-name="text-a99fd7" data-block-id="0d163445296ab61d9b1f4d5d0d53f613"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><p><a href="https://www.youtube.com/watch?v=nAZdK4codMk" target="_blank">Vortrag zum Thema</a></p></div></div></section><section data-auto-animate-easing="linear" data-auto-animate="" data-id="d39a05f56abb44e40081823c95b065f3">
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 21px;" data-name="text-fb64a9" data-block-id="61343573f0895c20519b5d0dbf21ed76"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><h2>Overfitten</h2></div></div>
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 95px;" data-name="text-63c0f8" data-block-id="acb9a8aa044433486fada307ddf83bbf"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Hands-On: MNIST Classifier</p></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 160px; top: 238.5px;" data-name="text-9ead63" data-block-id="0be292c6cb91afee3544ebacc3227633"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>Bearbeiten Sie <a href="https://colab.research.google.com/drive/1cHGKQAEkNDUUbG8ZGB6MXZsorhJ8-X40?usp=sharing" target="_blank">dieses Notebook</a></p>
+
+<p> </p>
+
+<ul>
+	<li>Wählen Sie eine zufällige Batch zum overfitten<br>
+	 </li>
+	<li>Trainieren Sie auf dieser Batch für 100 Epochen<br>
+	 </li>
+	<li>Evaluieren Sie das Modell an dieser Batch und den Testdaten</li>
+</ul>
+
+<p> </p>
+
+<p>Die Lösung finden Sie in <a href="https://colab.research.google.com/drive/1zsvWzQa4wZdmoJz6naD471jHyIiOcnpI?usp=sharing" target="_blank">diesem Notebook</a></p>
+</div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":3443619,"slug":"deep-learning-overfitting","title":" Deep Learning Grundlagen - Overfitting","description":"","width":1280,"height":720,"margin":0.05,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/06627a8ed383423a41d8627328ed5cb7/thumb.jpg?1755095908","view_count":0,"user":{"id":2458893,"username":"stefanhackstein","name":"Stefan Hackstein","description":null,"thumbnail_url":"https://lh3.googleusercontent.com/a/AAcHTteP1enz_27e7qvXw7hJWWWam3Nr4u8A0lNPTfK9NiXPSA=s96-c","account_type":"lite","team_id":null,"settings":{"id":57052205,"present_controls":false,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"black-blue","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":7,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1755204232275,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"language":"en","notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 1280,
+				height: 720,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				scrollActivationWidth: null,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+
+	</body>
+</html>

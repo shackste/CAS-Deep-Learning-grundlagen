@@ -1,0 +1,18 @@
+---
+title: "Slides"
+---
+
+| {{< bi collection >}} Thema | {{< bi clock >}} Dauer |
+|-------|--------|
+| [Input 0 - Was ist KI?](0a-was-ist-ki/index.html) | 15 min |
+| [Input 0a - Übersicht](0-overview/index.html) | 15 min |
+| [Input 1 - Daten Erkunden](1-daten-erkunden/index.html) | 15 min |
+| [Input 2 - Modell & Training](2-training/index.html) | 50 min |
+| [Input 3 - Evaluieren](3-evaluieren/index.html) | 10 min |
+| [Input 4 - Overfitten](4-overfitting/index.html) | 10 min |
+| [Input 5 - Regularisieren](5-regularisieren/index.html) | 10 min |
+| [Input 6 - Optimieren](6-optimieren/index.html) | 15 min |
+| [Input 6a - Möglichkeiten & Grenzen](6a-grenzen/index.html) | 45 min |
+| [Input 7 - Anwendungen](7-anwendungen/index.html) | 20 min |
+| [Input 8 - Geschichte des DL](8-historie//index.html) | 30 min |
+| [Input 9 - Zusammenfassung](9-zusammenfassung/index.html) | 5 min |
