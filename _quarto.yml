@@ -92,40 +92,40 @@ website:
         text: Slides (PDF)
         menu:
           - icon: file
-            href: slides/ki-basics.pdf
+            href: slides/pdfs/ki-basics.pdf
             text: Was ist KI?
           - icon: file
-            href: slides/deep-learning-overview.pdf
+            href: slides/pdfs/deep-learning-overview.pdf
             text: Übersicht
           - icon: file
-            href: slides/deep-learning-daten-erkunden.pdf
+            href: slides/pdfs/deep-learning-daten-erkunden.pdf
             text: Daten erkunden
           - icon: file
-            href: slides/deep-learning-training.pdf
+            href: slides/pdfs/deep-learning-training.pdf
             text: Modell & Training
           - icon: file
-            href: slides/deep-learning-evaluieren.pdf
+            href: slides/pdfs/deep-learning-evaluieren.pdf
             text: Evaluieren
           - icon: file
-            href: slides/deep-learning-overfitting.pdf
+            href: slides/pdfs/deep-learning-overfitting.pdf
             text: Overfitting 
           - icon: file
-            href: slides/deep-learning-regularisieren.pdf
+            href: slides/pdfs/deep-learning-regularisieren.pdf
             text: Regularisieren
           - icon: file
-            href: slides/deep-learning-optimieren.pdf
+            href: slides/pdfs/deep-learning-optimieren.pdf
             text: Optimieren  
           - icon: file
-            href: slides/deep-learning-grenzen.pdf
+            href: slides/pdfs/deep-learning-grenzen.pdf
             text: Möglichkeiten & Grenzen
           - icon: file
-            href: slides/deep-learning-anwendungen.pdf
+            href: slides/pdfs/deep-learning-anwendungen.pdf
             text: Anwendungen
           - icon: file
-            href: slides/deep-learning-historie.pdf
+            href: slides/pdfs/deep-learning-historie.pdf
             text: Geschichte des Deep Learning
           - icon: file
-            href: slides/deep-learning-zusammenfassung.pdf
+            href: slides/pdfs/deep-learning-zusammenfassung.pdf
             text: Zusammenfassung
 
       - icon: pencil
