@@ -1,5 +1,5 @@
 ---
-title:  Begrüßungsaufgabe
+title: Vorstellungsrunde
 ---
 
 Stellen Sie sich kurz vor:

@@ -84,6 +84,49 @@ website:
           - icon: file
             href: slides/8-historie/index.html
             text: Geschichte des DL
+          - icon: file
+            href: slides/9-zusammenfassung/index.html
+            text: Zusammenfassung
+
+      - icon: book
+        text: Slides (PDF)
+        menu:
+          - icon: file
+            href: slides/ki-basics.pdf
+            text: Was ist KI?
+          - icon: file
+            href: slides/deep-learning-overview.pdf
+            text: Übersicht
+          - icon: file
+            href: slides/deep-learning-daten-erkunden.pdf
+            text: Daten erkunden
+          - icon: file
+            href: slides/deep-learning-training.pdf
+            text: Modell & Training
+          - icon: file
+            href: slides/deep-learning-evaluieren.pdf
+            text: Evaluieren
+          - icon: file
+            href: slides/deep-learning-overfitting.pdf
+            text: Overfitting 
+          - icon: file
+            href: slides/deep-learning-regularisieren.pdf
+            text: Regularisieren
+          - icon: file
+            href: slides/deep-learning-optimieren.pdf
+            text: Optimieren  
+          - icon: file
+            href: slides/deep-learning-grenzen.pdf
+            text: Möglichkeiten & Grenzen
+          - icon: file
+            href: slides/deep-learning-anwendungen.pdf
+            text: Anwendungen
+          - icon: file
+            href: slides/deep-learning-historie.pdf
+            text: Geschichte des Deep Learning
+          - icon: file
+            href: slides/deep-learning-zusammenfassung.pdf
+            text: Zusammenfassung
 
       - icon: pencil
         href: exercises/index.qmd
