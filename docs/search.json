@@ -76,7 +76,7 @@
     "href": "workshop/kursvorbereitung.html",
     "title": "Kursvorbereitung",
     "section": "",
-    "text": "Option 1: Sofort fertig mit Google Colab\nGoogle Colab\nOption 2: Virtual Environment mit Jupyter Notebooks aufsetzen\n- Virtual Environment & Jupyter Notebooks\n- PyTorch / TensorFlow mit CUDA installieren:\n- PyTorch (Linux): Anleitung\n- PyTorch (Windows): Anleitung\n- TensorFlow: Anleitung\n\n\n\n\nOption 1: PyTorch Fundamentals\nOption 2: TensorFlow Basics\n\n\n\n\nWas ist ein Neuronales Netzwerk?\nVideo ansehen\nContent licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/”",
+    "text": "Im Kurs werden wir die Python Pakete PyTorch und TensorFlow für das Deep Learning verwenden. Bitte bereiten Sie sich darauf vor indem Sie\nContent licensed under CC BY, Cite as: Hackstein, S. (2025). CAS Deep Learning - Grundlagen. Retrieved from https://shackste.github.io/CAS-Deep-Learning-grundlagen/”",
     "crumbs": [
       "Workshop",
       "Kursvorbereitung"
@@ -86,8 +86,8 @@
     "objectID": "workshop/kursvorbereitung.html#programmierumgebung-aufsetzen",
     "href": "workshop/kursvorbereitung.html#programmierumgebung-aufsetzen",
     "title": "Kursvorbereitung",
-    "section": "",
-    "text": "Option 1: Sofort fertig mit Google Colab\nGoogle Colab\nOption 2: Virtual Environment mit Jupyter Notebooks aufsetzen\n- Virtual Environment & Jupyter Notebooks\n- PyTorch / TensorFlow mit CUDA installieren:\n- PyTorch (Linux): Anleitung\n- PyTorch (Windows): Anleitung\n- TensorFlow: Anleitung",
+    "section": "1. Programmierumgebung aufsetzen",
+    "text": "1. Programmierumgebung aufsetzen\nUm die Übungsaufgaben der Grundlagen zu bearbeiten, genügt zunächst Google Colab. Bitte setzen Sie aber auch eine eigene Programmierumgebung auf, die Sie im weiteren Verlauf benötigen werden.\nOption 1: Sofort fertig mit Google Colab\nGoogle Colab\nOption 2: Virtual Environment mit Jupyter Notebooks aufsetzen\n- Virtual Environment & Jupyter Notebooks\n- PyTorch / TensorFlow mit CUDA installieren:\n- PyTorch (Linux): Anleitung\n- PyTorch (Windows): Anleitung\n- TensorFlow: Anleitung",
     "crumbs": [
       "Workshop",
       "Kursvorbereitung"
@@ -97,8 +97,8 @@
     "objectID": "workshop/kursvorbereitung.html#beginner-tutorial-durchgehen",
     "href": "workshop/kursvorbereitung.html#beginner-tutorial-durchgehen",
     "title": "Kursvorbereitung",
-    "section": "",
-    "text": "Option 1: PyTorch Fundamentals\nOption 2: TensorFlow Basics",
+    "section": "2. Beginner Tutorial durchgehen",
+    "text": "2. Beginner Tutorial durchgehen\nBearbeiten Sie diese Tutorials, um sich mit den beiden Paketen vertraut zu machen.\nPyTorch Fundamentals\nTensorFlow Basics",
     "crumbs": [
       "Workshop",
       "Kursvorbereitung"
@@ -108,19 +108,8 @@
     "objectID": "workshop/kursvorbereitung.html#grundlagenvideo-anschauen",
     "href": "workshop/kursvorbereitung.html#grundlagenvideo-anschauen",
     "title": "Kursvorbereitung",
-    "section": "",
-    "text": "Was ist ein Neuronales Netzwerk?\nVideo ansehen",
-    "crumbs": [
-      "Workshop",
-      "Kursvorbereitung"
-    ]
-  },
-  {
-    "objectID": "workshop/kursvorbereitung.html#weitere-grundlagenvideos-der-playlist-kapitel-24",
-    "href": "workshop/kursvorbereitung.html#weitere-grundlagenvideos-der-playlist-kapitel-24",
-    "title": "Kursvorbereitung",
-    "section": "Weitere Grundlagenvideos der Playlist (Kapitel 2–4)",
-    "text": "Weitere Grundlagenvideos der Playlist (Kapitel 2–4)\n\nGradientenverfahren – wie neuronale Netze lernen\nVideo ansehen\nBackpropagation – intuitiv\nVideo ansehen\nBackpropagation – mathematisch\nVideo ansehen",
+    "section": "3. Grundlagenvideo anschauen",
+    "text": "3. Grundlagenvideo anschauen\nDiese Videos vermitteln ein gutes Grundverständnis, welches wir dann im Kurs weiter vertiefen werden.\n-Was ist ein Neuronales Netzwerk?\nVideo ansehen - Gradientenverfahren – wie neuronale Netze lernen\nVideo ansehen - Backpropagation – intuitiv\nVideo ansehen - Backpropagation – mathematisch\nVideo ansehen",
     "crumbs": [
       "Workshop",
       "Kursvorbereitung"

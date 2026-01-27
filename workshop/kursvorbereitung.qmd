@@ -2,9 +2,17 @@
 title: "Kursvorbereitung"
 ---
 
-# Pflicht
+Im Kurs werden wir die Python Pakete *PyTorch* und *TensorFlow* für das Deep Learning verwenden.
+Bitte bereiten Sie sich darauf vor indem Sie
+
+1. eine Programmierumgebung aufsetzen
+2. Beginner Tutorials durchgehen
+3. Grundlagenvideos schauen
 
 ## 1. Programmierumgebung aufsetzen
+
+Um die Übungsaufgaben der Grundlagen zu bearbeiten, genügt zunächst Google Colab.
+Bitte setzen Sie aber auch eine eigene Programmierumgebung auf, die Sie im weiteren Verlauf benötigen werden. 
 
 **Option 1:** Sofort fertig mit Google Colab  
 [Google Colab](https://colab.research.google.com/)
@@ -20,22 +28,19 @@ title: "Kursvorbereitung"
 
 ## 2. Beginner Tutorial durchgehen
 
-**Option 1:** [PyTorch Fundamentals](https://www.learnpytorch.io/00_pytorch_fundamentals/)  
-**Option 2:** [TensorFlow Basics](https://www.tensorflow.org/guide/basics)
+Bearbeiten Sie diese Tutorials, um sich mit den beiden Paketen vertraut zu machen.
+
+[PyTorch Fundamentals](https://www.learnpytorch.io/00_pytorch_fundamentals/)  
+[TensorFlow Basics](https://www.tensorflow.org/guide/basics)
 
 ---
 
 ## 3. Grundlagenvideo anschauen
 
-**Was ist ein Neuronales Netzwerk?**  
-[Video ansehen](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1&pp=iAQB)
+Diese Videos vermitteln ein gutes Grundverständnis, welches wir dann im Kurs weiter vertiefen werden.
 
----
-
-# Optional
-
-## Weitere Grundlagenvideos der Playlist (Kapitel 2–4)
-
+-**Was ist ein Neuronales Netzwerk?**  
+  [Video ansehen](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1&pp=iAQB)
 - **Gradientenverfahren – wie neuronale Netze lernen**  
   [Video ansehen](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=2&pp=iAQB)
 - **Backpropagation – intuitiv**  
